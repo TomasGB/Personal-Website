@@ -9,7 +9,7 @@ const Container = (props) => {
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css"/>
             </Head>
             <Navigation/>
-            <div className="container p-4">
+            <div>
                 {props.children}
             </div>
             

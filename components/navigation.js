@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navigation = () =>{
     return(
-      <nav class="navbar-nav">
+      <nav className="navbar-nav">
         <div>
           <ul>
             <li><a href="/">Home</a></li>

@@ -16,9 +16,13 @@ const Index = () =>{
                 .introduction{
                     padding: 5%;
                     }
-                h1,h4 {
+                h1{
                     text-align:center;
-                    padding: 2%;
+                    margin-top: 6%;
+                    }
+                h4{
+                    text-align:center;
+                    margin: 5%;
                     }
                 .introduction p {
                     color: #000000;
