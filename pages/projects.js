@@ -54,8 +54,8 @@ const Projects = () =>{
         .repos{
             background-color:#404040;
             text-align:center;
-            margin:3% 0% 0% 0% ;
-            padding: 3%;
+            margin:5% 0% 0% 0% ;
+            padding: 10%;
         }
         .repos div div{
             color:#000000;
@@ -64,7 +64,7 @@ const Projects = () =>{
         }
         .repos p{
             color:#FFFFFF;
-            margin:5% 10%;
+            margin:8% 10%;
         }
     `}</style>
         </div>

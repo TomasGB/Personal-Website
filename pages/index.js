@@ -82,7 +82,7 @@ const Index = () =>{
             <h4>Electronic Engineering Student</h4>
             <Photo></Photo>
             <div className="introduction">
-                    <p>Hi I'm Tomás, a second year computer engineering student 
+                    <p>Hi I'm Tomás, a second year electronic engineering student 
                     who loves to learn about electronic devices, programming
                     and  it's applications related to music, as I love to
                     make it in my free time.
@@ -91,11 +91,11 @@ const Index = () =>{
             <div className="tec-stack">
                 <div>
                     <ul>
-                    Languages:
+                    Main Languages:
                         <li>Python</li>
                         <li>Matlab</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
                         <li>Node js</li>
                     </ul>
                 </div>

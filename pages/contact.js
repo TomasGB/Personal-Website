@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Container from '../components/container'
-import Footers from '../components/footer'
-import Link from 'next/link'
 import Socials from '../components/socials'
 
 const Contact = () =>{
