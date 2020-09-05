@@ -28,6 +28,7 @@ const Navigation = () =>{
                 font: Helvetica 18px bold;
                 color: #FFFFFF;
                 text-decoration:none;
+
               }
               .navbar-nav div ul li:hover{
                 background-color: #535353;

@@ -13,10 +13,24 @@ const Contact = () =>{
                 </Head>
                     <body>
                         <div>
+                        <div className="text">
+                            <p>You can find me in any of the following social networks, feel free to send a DM.</p>
+                        </div>
                             <Socials></Socials>
                         </div>
                     </body>
             </Container>
+            <style jsx>{`
+                .text p{
+                    color: #000000;
+                    text-align:center;
+                    margin-top: 10%;
+                    margin-left:10%;
+                    width:80%;
+                    font: 20px bold;
+                    font-family:Helvetica;
+                }
+            `}</style>
         </div>
     )
 }

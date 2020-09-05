@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const Footers = (props) => {
+const Footers = () => {
     return(
         <div>
                 <li>
