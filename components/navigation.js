@@ -16,12 +16,12 @@ const Navigation = () =>{
               }
               .navbar-nav div ul{
                 display:flex;
-                margin:auto;
+                flex-direction: row;
+                margin-bottom:0%;
               }
               .navbar-nav div ul li{
                 list-style-type:none;
                 display:inline-block;
-                margin:1% 3%;
                 padding:20px;
               }
               .navbar-nav div ul li a{

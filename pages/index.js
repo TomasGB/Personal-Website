@@ -39,14 +39,15 @@ const Index = () =>{
                     background-color: #202020;
                     color: #FFFFFF;
                     text-align: center;
-                    padding: 5%;
+                    padding: 10%;
                     font: 18px bold;
                     font-family:Helvetica;
                 }
                 .tec-stack div{
+                    text-align:justify;
                     display: inline-flex;
                     flex-wrap:wrap;
-                    margin:4%;
+                    margin:5%;
                 }
                 .tec-stack li{
                     list-style-type: none;
