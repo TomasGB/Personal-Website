@@ -18,7 +18,7 @@ const Socials = () =>{
                         </a>
                     </li>
                     <li><a href="https://www.linkedin.com/in/tomasgomezbermudez/">
-                            <img src="icons/youtube.png"></img>
+                            <img src="icons/linkedin.png"></img>
                         </a>
                     </li>
                 </ul>
