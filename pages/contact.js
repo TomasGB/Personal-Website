@@ -12,7 +12,7 @@ const Contact = () =>{
                     <body>
                         <div>
                         <div className="text">
-                            <p>You can find me in any of the following social networks, feel free to send a DM.</p>
+                            <p>You can find me in any of the following social networks, feel free to send a message.</p>
                         </div>
                             <Socials></Socials>
                         </div>
