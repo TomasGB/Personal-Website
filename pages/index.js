@@ -35,6 +35,9 @@ const Index = () =>{
                     margin-right:10%;
                     padding: 20px;
                 }
+                h2{
+                    color:#FFFFFF
+                }
                 .tec-stack{
                     background-color: #202020;
                     color: #FFFFFF;
@@ -47,7 +50,7 @@ const Index = () =>{
                     text-align:justify;
                     display: inline-flex;
                     flex-wrap:wrap;
-                    margin:5%;
+                    margin:8% 5% 5% 5%;
                 }
                 .tec-stack li{
                     list-style-type: none;
@@ -84,11 +87,11 @@ const Index = () =>{
             <div className="introduction">
                     <p>Hi I'm Tomás, a second year electronic engineering student 
                     who loves to learn about electronic devices, programming
-                    and  it's applications related to music, as I love to
-                    make it in my free time.
+                    and  it's applications in automation and control systems.
                     </p>
             </div>
             <div className="tec-stack">
+                <h2>Technologies</h2>
                 <div>
                     <ul>
                     Main Languages:
