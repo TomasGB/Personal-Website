@@ -20,20 +20,40 @@ const Projects = () =>{
                     <div className="repos">
                         <div>
                             <div>Automatic Timelapse Processor</div>
-                            <p>The goal of this project was to automate the process of making a timelapse, that includes taking the pictures, apply color correction when needed, histogram equalization and finally export an mp4 file with the timelapse with and without processing.</p>
+                            <p>The goal of this project was to automate the process of making a timelapse, that includes taking the pictures, apply color correction when needed, histogram equalization and finally export an mp4 file with the timelapse with and without processing to compare the results. To make this project I used OpenCV and Pillow.</p>
+                        </div>
+                        <div className="repo-link">
+                            <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
+                                <img src="icons/github.png"></img>
+                            </a>
                         </div>
                         <div>
-                            <div>Next js Website</div>
-                            <p>Website built Next js for the front-end and Node js with Express for the backend.</p>
+                            <div>Next js + Express js Website</div>
+                            <p>Website built using Next js and styled with jsx for the front-end and Node js with Express for the backend.</p>
+                            <div className="repo-link">
+                                <a href="https://github.com/TomasGB/Website-Next.js">
+                                    <img src="icons/github.png"></img>
+                                </a>
+                            </div>
                         </div>
                         <div>
                             <div>Flask Website</div>
                             <p>Website built using HTML5 and 
                             CSS3 for the front-end and for the backend I used Python with the framework Flask.</p>
+                            <div className="repo-link">
+                                <a href="https://github.com/TomasGB/Flask-Webapp">
+                                    <img src="icons/github.png"></img>
+                                </a>
+                            </div>
                         </div>
                         <div>
                             <div>Polygon Surface Calculator</div>
                             <p>This was a class project, the goal was to develop a script able to calculate the area of any 2-D polygon with three diferent methods on MATLAB. </p>
+                            <div className="repo-link">
+                                <a href="https://github.com/TomasGB/Polygon-surface-calculator">
+                                    <img src="icons/github.png"></img>
+                                </a>
+                            </div>
                         </div>
                     </div>
             </Container>
@@ -65,7 +85,18 @@ const Projects = () =>{
         .repos p{
             color:#FFFFFF;
             margin:8% 10%;
+            text-align:justify;
         }
+        .repo-link a img{
+            width:50px;
+            margin-top:2%;
+            margin-bottom:10%;
+        }
+        .repo-link a img:hover{
+            border-radius:50%;
+            border: 5px solid #000000;
+        }
+
     `}</style>
         </div>
     )
