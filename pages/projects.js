@@ -75,7 +75,7 @@ const Projects = () =>{
             background-color:#404040;
             text-align:center;
             margin:5% 0% 0% 0% ;
-            padding: 10%;
+            padding: 10% 8% 0% 8%;
         }
         .repos div div{
             color:#000000;
