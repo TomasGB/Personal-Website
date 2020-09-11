@@ -39,7 +39,7 @@ const Projects = () =>{
                         <div>
                             <div>Flask Website</div>
                             <p>Website built using HTML5 and 
-                            CSS3 for the front-end and for the backend I used Python with the framework Flask.</p>
+                            CSS3 for the front-end and for the backend I used the Python framework Flask.</p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Flask-Webapp">
                                     <img src="icons/github.png"></img>

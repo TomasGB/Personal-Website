@@ -98,9 +98,9 @@ const Index = () =>{
                     <ul>
                     Languages:
                         <li>Python</li>
-                        <li>Matlab</li>
                         <li>HTML 5</li>
                         <li>CSS 3</li>
+                        <li>Javascritp</li>
                         <li>Node js</li>
                     </ul>
                 </div>
