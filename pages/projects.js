@@ -57,7 +57,27 @@ const Projects = () =>{
                         </div>
                     </div>
             </Container>
-            <Socials></Socials>
+            <h3>Stay connected</h3>
+            <div className="social-icons">
+                <ul>
+                    <li><a href="https://twitter.com/TomasGB_98">
+                            <img src="icons/twitter.png"></img>
+                        </a>
+                    </li>
+                    <li><a href="https://www.instagram.com/gmz.tomas">
+                            <img src="icons/instagram.png"></img>
+                        </a>
+                    </li>
+                    <li><a href="https://github.com/TomasGB">
+                            <img src="icons/github.png"></img>
+                        </a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/tomasgomezbermudez/">
+                            <img src="icons/linkedIn.png"></img>
+                        </a>
+                    </li>
+                </ul>
+            </div>
     <style jsx>{`
         .text {
             text-align:center;
@@ -96,9 +116,28 @@ const Projects = () =>{
             border-radius:50%;
             border: 5px solid #000000;
         }
-
+        h3{
+            margin:5% 0% 0% 0%;
+            text-align:center;
+        }
+        .social-icons{
+            text-align:center;
+            margin:5%;
+        }
+        .social-icons li a img{
+            width: 49px;
+        }
+        .social-icons li{
+            display:inline-flex;
+            list-style-type: none;
+            margin: 0% 2%;
+        }
+        .social-icons a img:hover{
+            border-radius:50%;
+            border: 3px solid #000000;
+        }
     `}</style>
-        </div>
+    </div>
     )
 }
 export default Projects

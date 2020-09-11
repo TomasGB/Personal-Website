@@ -41,16 +41,18 @@ const Index = () =>{
                 .tec-stack{
                     background-color: #202020;
                     color: #FFFFFF;
-                    text-align: center;
-                    padding: 10%;
+                    text-align: justify;
+                    padding: 8% 5%;
                     font: 18px bold;
                     font-family:Helvetica;
                 }
                 .tec-stack div{
-                    text-align:justify;
-                    display: inline-flex;
+                    padding: 5% 0%;
+                    align-items:justify;
+                    display:inline-flex;
+                    flex-direction: row;
                     flex-wrap:wrap;
-                    margin:8% 5% 5% 5%;
+                    margin:3%;
                 }
                 .tec-stack li{
                     list-style-type: none;
@@ -94,7 +96,7 @@ const Index = () =>{
                 <h2>Technologies</h2>
                 <div>
                     <ul>
-                    Main Languages:
+                    Languages:
                         <li>Python</li>
                         <li>Matlab</li>
                         <li>HTML 5</li>
@@ -115,6 +117,13 @@ const Index = () =>{
                     Version Control:
                         <li>Git</li>
                         <li>Github</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                    Electronic Engineering:
+                        <li>Matlab</li>
+                        <li>Simulink</li>
                     </ul>
                 </div>
             </div>
