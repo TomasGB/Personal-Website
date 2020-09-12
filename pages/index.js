@@ -100,7 +100,7 @@ const Index = () =>{
                         <li>Python</li>
                         <li>HTML 5</li>
                         <li>CSS 3</li>
-                        <li>Javascritp</li>
+                        <li>Javascript</li>
                         <li>Node js</li>
                     </ul>
                 </div>

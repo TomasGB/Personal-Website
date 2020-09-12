@@ -12,6 +12,7 @@ const Projects = () =>{
                     <title>Tomas Gomez Bermudez | Projects</title>
                 </Head>
                     <div className="text">
+                        <h2>Projects</h2>
                         <p>Here is a list of some of the projects I've made
                         throught the years, some of them were class projects
                         and others I made them on my spare time.
@@ -86,13 +87,16 @@ const Projects = () =>{
             margin-left:10%;
             width:80%
         }
+        .text h2{
+            margin-bottom:5%;
+        }
         .text p{
             color: #000000;
             font: 20px bold;
             font-family:Helvetica;
         }
         .repos{
-            background-color:#404040;
+            background-color:#454545;
             text-align:center;
             margin:5% 0% 0% 0% ;
             padding: 10% 8% 0% 8%;
