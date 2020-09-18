@@ -145,5 +145,3 @@ const Index = () =>{
 }
 
 export default Index
-
-//npm run dev
