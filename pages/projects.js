@@ -29,20 +29,19 @@ const Projects = () =>{
                             </a>
                         </div>
                         <div>
-                            <div>Next js + Express js Website</div>
-                            <p>Website built using Next js and styled with jsx for the front-end and Node js with Express for the backend.</p>
+                            <div>Hanna Voice Assistant</div>
+                            <p>Python Assistant capable of take voice commands and interact with different third party API's. the goal it's to automate daily tasks such as: ask for the time, date, upcoming events on google calendar, etc.</p>
                             <div className="repo-link">
-                                <a href="https://github.com/TomasGB/Website-Next.js">
+                                <a href="https://github.com/TomasGB/Voice-Assistant">
                                     <img src="icons/github.png"></img>
                                 </a>
                             </div>
                         </div>
                         <div>
-                            <div>Flask Website</div>
-                            <p>Website built using HTML5 and 
-                            CSS3 for the front-end and for the backend I used the Python framework Flask.</p>
+                            <div>Next js + Express js Website</div>
+                            <p>Website built using Next js and styled with jsx for the front-end and Node js with Express for the backend.</p>
                             <div className="repo-link">
-                                <a href="https://github.com/TomasGB/Flask-Webapp">
+                                <a href="https://github.com/TomasGB/Website-Next.js">
                                     <img src="icons/github.png"></img>
                                 </a>
                             </div>

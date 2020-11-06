@@ -135,6 +135,7 @@ const Index = () =>{
                     <li>Image Processing</li>
                     <li>Machine Learning</li>
                     <li>Embedded Systems</li>
+                    <li>Process automation</li>
                     <li>IoT</li>
                 </ul>
             </div>
