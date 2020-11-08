@@ -124,8 +124,8 @@ const Projects = () =>{
         .repos p{
             background-color:#FFFFFF;
             color:#000000;
-            margin:8% 10%;
-            text-align:justify;
+            margin:8% 5%;
+            text-align:left;
             font: 18px bold
         }
         .repo-link a img{

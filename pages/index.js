@@ -29,7 +29,7 @@ const Index = () =>{
                     font: 20px bold;
                     font-family:Helvetica;
                     display: inline-block;
-                    text-align:justify-left;
+                    text-align:center;
                     width: 80%;
                     margin-left:10%;
                     margin-right:10%;
