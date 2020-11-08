@@ -106,10 +106,11 @@ const Index = () =>{
                 </div>
                 <div>
                     <ul>
-                    Web Frameworks:
+                    Frameworks:
                         <li>Flask</li>
-                        <li>Next js</li>
-                        <li>Express js</li>
+                        <li>Selenium</li>
+                        <li>Next.js</li>
+                        <li>Express.js</li>
                     </ul>
                 </div>
                 <div>

@@ -19,26 +19,31 @@ const Projects = () =>{
                         All projects can be found on my Github profile.</p>
                     </div>
                     <div className="repos">
-                        <div>
-                            <div>Automatic Timelapse Processor</div>
-                            <p>The goal of this project was to automate the process of making a timelapse, that includes taking the pictures, apply color correction when needed, histogram equalization and finally export an mp4 file with the timelapse with and without processing to compare the results. To make this project I used OpenCV and Pillow.</p>
+                        <div className="card">
+                            <div className="card-title">Automatic Timelapse Processor</div>
+                            <p>The goal of this project was to automate the process of making a timelapse, that includes taking the pictures, apply color correction when needed, histogram equalization and finally export an mp4 file with the timelapse with and without processing to compare the results. <br></br>
+                            <br></br>
+                            Technologies used: Python - OpenCV - Pillow.</p>
+                            <div className="repo-link">
+                                <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
+                                    <img src="icons/github.png"></img>
+                                </a>
+                            </div>
                         </div>
-                        <div className="repo-link">
-                            <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
-                                <img src="icons/github.png"></img>
-                            </a>
-                        </div>
-                        <div>
-                            <div>Hanna Voice Assistant</div>
-                            <p>Python Assistant capable of take voice commands and interact with different third party API's. the goal it's to automate daily tasks such as: ask for the time, date, upcoming events on google calendar, etc.</p>
+                        <div className="card">
+                            <div className="card-title">Voice Assistant - Hanna</div>
+                            <p>Python Assistant capable of take voice commands and interact with different third party API's (Google calendar, Twitch, OpenWeather). The goal it's to automate daily tasks such as: ask for the time, open websites, events on google calendar, check what streamers are currently live, etc.<br></br>
+                            <br></br>
+                            Technologies used: Python - Selenium - PyAudio - Pyttsx3 - API's
+                            </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Voice-Assistant">
                                     <img src="icons/github.png"></img>
                                 </a>
                             </div>
                         </div>
-                        <div>
-                            <div>Next js + Express js Website</div>
+                        <div className="card">
+                            <div className="card-title">Next js + Express js Website</div>
                             <p>Website built using Next js and styled with jsx for the frontend and Node js with Express for the backend.</p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Website-Next.js">
@@ -46,8 +51,8 @@ const Projects = () =>{
                                 </a>
                             </div>
                         </div>
-                        <div>
-                            <div>Polygon Surface Calculator</div>
+                        <div className="card">
+                            <div className="card-title">Polygon Surface Calculator</div>
                             <p>This was a class project, the goal was to develop a script able to calculate the area of any 2-D polygon with three diferent methods on MATLAB. </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Polygon-surface-calculator">
@@ -57,26 +62,28 @@ const Projects = () =>{
                         </div>
                     </div>
             </Container>
-            <h3>Stay connected</h3>
-            <div className="social-icons">
-                <ul>
-                    <li><a href="https://twitter.com/TomasGB_98">
-                            <img src="icons/twitter.png"></img>
-                        </a>
-                    </li>
-                    <li><a href="https://www.instagram.com/gmz.tomas">
-                            <img src="icons/instagram.png"></img>
-                        </a>
-                    </li>
-                    <li><a href="https://github.com/TomasGB">
-                            <img src="icons/github.png"></img>
-                        </a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/tomasgomezbermudez/">
-                            <img src="icons/linkedIn.png"></img>
-                        </a>
-                    </li>
-                </ul>
+            <div className= "footer">
+                <h3>Stay connected</h3>
+                <div className="social-icons">
+                    <ul>
+                        <li><a href="https://twitter.com/TomasGB_98">
+                                <img src="icons/twitter.png"></img>
+                            </a>
+                        </li>
+                        <li><a href="https://www.instagram.com/gmz.tomas">
+                                <img src="icons/instagram.png"></img>
+                            </a>
+                        </li>
+                        <li><a href="https://github.com/TomasGB">
+                                <img src="icons/github.png"></img>
+                            </a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/tomasgomezbermudez/">
+                                <img src="icons/linkedIn.png"></img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
     <style jsx>{`
         .text {
@@ -98,19 +105,31 @@ const Projects = () =>{
             background-color:#454545;
             text-align:center;
             margin:5% 0% 0% 0% ;
-            padding: 10% 8% 0% 8%;
+            padding: 10% 8% 5% 8%;
+            
         }
-        .repos div div{
-            color:#000000;
+        .repos .card{
+            margin-bottom:5%;
+            margin-left:5%;
+            width:90%;
+            box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9), 0 6px 50px 0 rgba(0, 0, 0, 0.5);
+        }
+        .repos .card .card-title{
+            padding: 3%;
+            background-color:#202020;
+            color:white;
             font: 30px bold;
             font-family:Helvetica;
         }
         .repos p{
-            color:#FFFFFF;
+            background-color:#FFFFFF;
+            color:#000000;
             margin:8% 10%;
             text-align:justify;
+            font: 18px bold
         }
         .repo-link a img{
+            border: 1px solid #FFFFFF;
             width:50px;
             margin-top:2%;
             margin-bottom:10%;
