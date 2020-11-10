@@ -43,8 +43,8 @@ const Projects = () =>{
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-title">Next.js  Website</div>
-                            <p>This website is built using Next js and styled with jsx .</p>
+                            <div className="card-title">Next.js + Express  Website</div>
+                            <p>This website is built using the Next.js framework and styled with jsx for the frontend and the backend runs a node js server throught Express.</p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Website-Next.js">
                                     <img src="icons/github.png"></img>
