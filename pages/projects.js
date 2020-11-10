@@ -31,7 +31,7 @@ const Projects = () =>{
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-title">Voice Assistant - Hanna</div>
+                            <div className="card-title">Voice Assistant</div>
                             <p>Python Assistant capable of take voice commands and interact with different third party API's (Google calendar, Twitch, OpenWeather). The goal it's to automate daily tasks such as: ask for the time, open websites, events on google calendar, check what streamers are currently live, etc.<br></br>
                             <br></br>
                             Technologies used: Python - Selenium - PyAudio - Pyttsx3 - API's
@@ -43,8 +43,8 @@ const Projects = () =>{
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-title">Next js + Express js Website</div>
-                            <p>Website built using Next js and styled with jsx for the frontend and Node js with Express for the backend.</p>
+                            <div className="card-title">Next.js  Website</div>
+                            <p>This website is built using Next js and styled with jsx .</p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Website-Next.js">
                                     <img src="icons/github.png"></img>

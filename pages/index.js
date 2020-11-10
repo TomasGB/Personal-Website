@@ -87,7 +87,7 @@ const Index = () =>{
             <h4>Electronic Engineering Student</h4>
             <Photo></Photo>
             <div className="introduction">
-                    <p>Hi I'm Tomás, a second year electronic engineering student 
+                    <p>I'm Tomás, a second year electronic engineering student 
                     who loves to learn about electronic devices, programming
                     and  it's applications in automation and control systems.
                     </p>
@@ -110,7 +110,7 @@ const Index = () =>{
                         <li>Flask</li>
                         <li>Selenium</li>
                         <li>Next.js</li>
-                        <li>Express.js</li>
+                        <li>Express</li>
                     </ul>
                 </div>
                 <div>
