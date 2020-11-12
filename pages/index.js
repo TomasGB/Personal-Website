@@ -10,6 +10,11 @@ const Index = () =>{
             <Container>
                 <Head>
                     <title>Tomas Gomez Bermudez | Home</title>
+                    <meta charset="utf-8" />
+                    <meta
+                        name="Tomas Gomez Bermudez"
+                        content="Personal website-portfolio"/>
+                    <link rel="icon" href="public/favicon.ico" />
                 </Head>
             </Container>
             <style jsx>{`
