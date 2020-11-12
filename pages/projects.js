@@ -23,7 +23,13 @@ const Projects = () =>{
                             <div className="card-title">Automatic Timelapse Processor</div>
                             <p>The goal of this project was to automate the process of making a timelapse, that includes taking the pictures, apply color correction when needed, histogram equalization and finally export an mp4 file with the timelapse with and without processing to compare the results. <br></br>
                             <br></br>
-                            Technologies used: Python - OpenCV - Pillow.</p>
+                            Technologies used:
+                             <ul>
+                                 <li>Python</li>
+                                <li>OpenCV</li>
+                                <li>Pillow</li>
+                             </ul>
+                            </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
                                     <img src="icons/github.png"></img>
@@ -34,7 +40,14 @@ const Projects = () =>{
                             <div className="card-title">Voice Assistant</div>
                             <p>Python Assistant capable of take voice commands and interact with different third party API's (Google calendar, Twitch, OpenWeather). The goal it's to automate daily tasks such as: ask for the time, open websites, events on google calendar, check what streamers are currently live, etc.<br></br>
                             <br></br>
-                            Technologies used: Python - Selenium - PyAudio - Pyttsx3 - API's
+                            Technologies used:
+                             <ul>
+                                 <li>Python</li>
+                                <li>Selenium</li>
+                                <li>PyAudio</li>
+                                <li>Pyttsx3</li>
+                                <li>API's</li>
+                             </ul>
                             </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Voice-Assistant">
@@ -43,8 +56,17 @@ const Projects = () =>{
                             </div>
                         </div>
                         <div className="card">
-                            <div className="card-title">Next.js + Express  Website</div>
-                            <p>This website is built using the Next.js framework and styled with jsx for the frontend and the backend runs a node js server throught Express.</p>
+                            <div className="card-title">Next.js + Express.js  Website</div>
+                            <p>This website is built using the Next.js framework and styled with jsx for the frontend and the backend runs a Node JS server throught Express.js .<br></br>
+                            <br></br>
+                            Technologies used:
+                            <ul>
+                                <li>Javascript</li>
+                                <li>Node JS</li>
+                                <li>Express.js</li>
+                                <li>Next.js</li>
+                             </ul>
+                            </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Website-Next.js">
                                     <img src="icons/github.png"></img>
@@ -53,7 +75,13 @@ const Projects = () =>{
                         </div>
                         <div className="card">
                             <div className="card-title">Polygon Surface Calculator</div>
-                            <p>This was a class project, the goal was to develop a script able to calculate the area of any 2-D polygon with three diferent methods on MATLAB. </p>
+                            <p>This was a class project, the goal was to develop a script able to calculate the area of any 2-D polygon with three diferent methods on MATLAB.<br></br>
+                            <br></br>
+                            Technologies used:
+                            <ul>
+                                <li>MATLAB</li>
+                             </ul>
+                                 </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Polygon-surface-calculator">
                                     <img src="icons/github.png"></img>
@@ -146,17 +174,24 @@ const Projects = () =>{
             text-align:center;
             margin:5%;
         }
+
         .social-icons li a img{
             width: 49px;
         }
         .social-icons li{
             display:inline-flex;
             list-style-type: none;
-            margin: 0% 2%;
+            margin: 0% 2.5%;
         }
         .social-icons a img:hover{
             border-radius:50%;
             border: 3px solid #000000;
+        }
+        .card p{
+            font-family:Helvetica,Arial;
+        }
+        .card ul li{
+            margin-top:2%;
         }
     `}</style>
     </div>

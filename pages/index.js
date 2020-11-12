@@ -14,7 +14,7 @@ const Index = () =>{
                     <meta
                         name="Tomas Gomez Bermudez"
                         content="Personal website-portfolio"/>
-                    <link rel="icon" href="public/favicon.ico" />
+                    <link rel="icon" href="foto.ico"/>
                 </Head>
             </Container>
             <style jsx>{`
