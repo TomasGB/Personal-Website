@@ -31,10 +31,7 @@ const Socials = () =>{
             display:inline-flex;
             margin: 8%;
             list-style-type: none;
-        }
-        .icons li a img:hover{
-            border: 5px solid #000;
-            border-radius:50%;
+            animation: selection 2s easy-in-out;
         }
     `}</style>
         </>
