@@ -24,7 +24,7 @@ const Contact = () =>{
                     text-align:center;
                     margin-top: 15%;
                     margin-left:10%;
-                    margin-bottom: 7%;
+                    margin-bottom: 4%;
                     width:80%;
                     font: 20px bold;
                     font-family:Helvetica;

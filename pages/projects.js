@@ -170,9 +170,13 @@ const Projects = () =>{
             margin:5% 0% 0% 0%;
             text-align:center;
         }
+        .footer{
+            justify-content:center;
+        }
         .social-icons{
             text-align:center;
-            margin:5%;
+            margin-top:4%;
+            margin-left:-7%;
         }
 
         .social-icons li a img{
