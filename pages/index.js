@@ -75,16 +75,17 @@ const Index = () =>{
             </body>
             <Footers></Footers>
             <style jsx>{`
+        
         .introduction{
             padding: 5%;
             }
         h1{
             text-align:center;
-            margin-top: 6%;
+            margin-top: 3rem;
             }
         h4{
             text-align:center;
-            margin: 2% 5% 5% 5%;
+            margin: 5% 5% 10% 5%;
             }
         .introduction p {
             color: #000000;
