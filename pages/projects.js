@@ -28,6 +28,7 @@ const Projects = () =>{
                                  <li>Python</li>
                                 <li>OpenCV</li>
                                 <li>Pillow</li>
+                                <li>Tkinter</li>
                              </ul>
                             </p>
                             <div className="repo-link">
@@ -38,7 +39,8 @@ const Projects = () =>{
                         </div>
                         <div className="card">
                             <div className="card-title">Voice Assistant</div>
-                            <p>Python Assistant capable of take voice commands and interact with different third party API's (Google calendar, Twitch, OpenWeather). The goal it's to automate daily tasks such as: ask for the time, open websites, events on google calendar, check what streamers are currently live, etc.<br></br>
+                            <p>Python Assistant capable of take voice commands and interact with different third party APIs (Google calendar, Twitch, Twitter).
+                                 The goal it's to automate daily tasks such as: ask for the time, open websites, events on google calendar, check what streamers are currently live, etc.<br></br>
                             <br></br>
                             <h4>Technologies used:</h4>
                              <ul>
@@ -46,7 +48,7 @@ const Projects = () =>{
                                 <li>Selenium</li>
                                 <li>PyAudio</li>
                                 <li>Pyttsx3</li>
-                                <li>API's</li>
+                                <li>APIs</li>
                              </ul>
                             </p>
                             <div className="repo-link">
@@ -69,6 +71,22 @@ const Projects = () =>{
                             </p>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Website-Next.js">
+                                    <img src="icons/github.png"></img>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <div className="card-title">Track my money App</div>
+                            <p>Budget App made with Javascript and React to keep track of all incomes and expenses and calculate the final balance.<br></br>
+                            <br></br>
+                            <h4>Technologies used:</h4>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>React</li>
+                             </ul>
+                                 </p>
+                            <div className="repo-link">
+                                <a href="https://github.com/TomasGB/React-Budget-App">
                                     <img src="icons/github.png"></img>
                                 </a>
                             </div>

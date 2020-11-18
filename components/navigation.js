@@ -5,9 +5,9 @@ const Navigation = () =>{
       <nav className="navbar-nav">
         <div>
           <ul>
-            <li><a href="https://gbtomas.herokuapp.com/">Home</a></li>
-            <li><a href="https://gbtomas.herokuapp.com/projects">Projects</a></li>
-            <li><a href="https://gbtomas.herokuapp.com/contact">Contact</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
           </ul>
         </div>
     <style jsx global>{`

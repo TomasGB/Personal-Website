@@ -22,7 +22,7 @@ const Contact = () =>{
                 .text p{
                     color: #000000;
                     text-align:center;
-                    margin-top: 15%;
+                    margin-top: 10%;
                     margin-left:10%;
                     margin-bottom: 4%;
                     width:80%;

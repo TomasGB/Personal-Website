@@ -28,7 +28,7 @@ const Index = () =>{
                 <h2>Technologies</h2>
                 <div>
                     <ul>
-                    Languages:
+                    <h5>Languages:</h5>
                         <li>Python</li>
                         <li>HTML 5</li>
                         <li>CSS 3</li>
@@ -38,23 +38,24 @@ const Index = () =>{
                 </div>
                 <div>
                     <ul>
-                    Frameworks:
+                    <h5>Frameworks:</h5>
                         <li>Flask</li>
                         <li>Selenium</li>
+                        <li>React</li>
                         <li>Next.js</li>
                         <li>Express.js</li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                    Version Control:
+                    <h5>Version control:</h5>
                         <li>Git</li>
                         <li>Github</li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                    Electronic Engineering:
+                    <h5>Engineering:</h5>
                         <li>MATLAB</li>
                         <li>Simulink</li>
                     </ul>
@@ -98,7 +99,7 @@ const Index = () =>{
             margin-right:10%;
             padding: 20px;
         }
-        h2{
+        h2,h5{
             color:#FFFFFF
         }
         .tec-stack{
