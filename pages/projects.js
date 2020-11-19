@@ -30,7 +30,14 @@ const Projects = () =>{
                                 <li>Pillow</li>
                                 <li>Tkinter</li>
                              </ul>
+                             
                             </p>
+                            <div className='captures'>
+                                <div className="captures-desktop">
+                                    <img src="projects captures/timelapse-processor.png"
+                                            alt="timelapse-processor-view"/>
+                                </div>
+                            </div>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
                                     <img src="icons/github.png"></img>
@@ -69,6 +76,16 @@ const Projects = () =>{
                                 <li>Next.js</li>
                              </ul>
                             </p>
+                            <div className='captures'>
+                                <div className="captures-web">
+                                    <img src="projects captures/portfolio-webview.png"
+                                            alt="portfolio-webview"/>
+                                </div>
+                                <div className="captures-mobile">
+                                    <img src="projects captures/portfolio-mobileview.png"
+                                            alt="portfolio-mobileview"/>
+                                </div>
+                            </div>
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/Website-Next.js">
                                     <img src="icons/github.png"></img>
@@ -84,7 +101,18 @@ const Projects = () =>{
                                 <li>Javascript</li>
                                 <li>React</li>
                              </ul>
-                                 </p>
+                            </p>
+                            <div className='captures'>
+                                <div className="captures-web">
+                                    <img src="projects captures/trackmymoney-webview.png"
+                                            alt="trackmymoney-webview"/>
+                                </div>
+                                <div className="captures-mobile">
+                                    <img src="projects captures/trackmymoney-mobileview.png"
+                                            alt="trackmymoney-mobileview"/>
+                                </div>
+                            </div>
+                            
                             <div className="repo-link">
                                 <a href="https://github.com/TomasGB/React-Budget-App">
                                     <img src="icons/github.png"></img>
@@ -179,9 +207,9 @@ const Projects = () =>{
             width:50px;
             margin-top:2%;
             margin-bottom:10%;
+            border-radius:50%;
         }
         .repo-link a img:hover{
-            border-radius:50%;
             border: 5px solid #000000;
         }
         h3{
@@ -219,6 +247,33 @@ const Projects = () =>{
         .card ul li{
             margin-top:2%;
             font-family: Consolas;
+        }
+        .captures{
+            width:95%;
+            display:inline-block;
+            justify-content:center;
+            align-content:center;
+        }
+        .captures-web img{
+            box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1), 0 6px 50px 0 rgba(0, 0, 0, 0.4);
+            border-radius:0.5rem;
+            width:90%;
+            height:70%;
+            margin-bottom:2%;
+        }
+        .captures-mobile img{
+            justify-content:center;
+            width:150px;
+            height:300px;
+            margin-top:3%;
+
+        }
+        .captures-desktop img{
+            box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.4);
+            border-radius:0.5rem;
+            width:60%;
+            height:30%;
+            margin-bottom:6%;
         }
     `}</style>
     </div>
