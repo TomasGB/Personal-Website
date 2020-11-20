@@ -263,16 +263,15 @@ const Projects = () =>{
         }
         .captures-mobile img{
             justify-content:center;
-            width:150px;
-            height:300px;
+            width:25%;
+            height:35%;
             margin-top:3%;
-
         }
         .captures-desktop img{
             box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.4);
             border-radius:0.5rem;
-            width:60%;
-            height:30%;
+            width:50%;
+            height:25%;
             margin-bottom:6%;
         }
     `}</style>
