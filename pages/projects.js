@@ -252,7 +252,6 @@ const Projects = () =>{
             width:95%;
             display:inline-block;
             justify-content:center;
-            align-content:center;
         }
         .captures-web img{
             box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1), 0 6px 50px 0 rgba(0, 0, 0, 0.4);
@@ -260,12 +259,13 @@ const Projects = () =>{
             width:90%;
             height:70%;
             margin-bottom:2%;
+            margin-left:5%
         }
         .captures-mobile img{
-            justify-content:center;
             width:25%;
             height:35%;
             margin-top:3%;
+            margin-left:5%
         }
         .captures-desktop img{
             box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1), 0 6px 40px 0 rgba(0, 0, 0, 0.4);
@@ -273,6 +273,7 @@ const Projects = () =>{
             width:50%;
             height:25%;
             margin-bottom:6%;
+            margin-left:5%
         }
     `}</style>
     </div>
