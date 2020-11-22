@@ -51,7 +51,7 @@ const Projects = () =>{
                             <br></br>
                             <h4>Technologies used:</h4>
                              <ul>
-                                 <li>Python</li>
+                                <li>Python</li>
                                 <li>Selenium</li>
                                 <li>PyAudio</li>
                                 <li>Pyttsx3</li>

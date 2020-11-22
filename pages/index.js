@@ -40,7 +40,6 @@ const Index = () =>{
                     <ul>
                     <h5>Frameworks:</h5>
                         <li>Flask</li>
-                        <li>Selenium</li>
                         <li>React</li>
                         <li>Next.js</li>
                         <li>Express.js</li>
