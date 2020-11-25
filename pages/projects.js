@@ -46,7 +46,7 @@ const Projects = () =>{
                         </div>
                         <div className="card">
                             <div className="card-title">Voice Assistant</div>
-                            <p>Python Assistant capable of take voice commands and interact with different third party APIs (Google calendar, Twitch, Twitter).
+                            <p>Python Assistant capable of taking voice commands and interact with different third party APIs (Google calendar, Twitch, Twitter).
                                  The goal it's to automate daily tasks such as: ask for the time, open websites, events on google calendar, check what streamers are currently live, etc.<br></br>
                             <br></br>
                             <h4>Technologies used:</h4>
