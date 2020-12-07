@@ -30,19 +30,25 @@ const Index = () =>{
                     <ul>
                     <h5>Languages:</h5>
                         <li>Python</li>
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>Javascript</li>
-                        <li>Node js</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
                     </ul>
                 </div>
                 <div>
                     <ul>
-                    <h5>Frameworks:</h5>
-                        <li>Flask</li>
+                    <h5>Frontend:</h5>
                         <li>React</li>
                         <li>Next.js</li>
-                        <li>Express.js</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+                <div>
+                <ul>
+                    <h5>Backend:</h5>
+                        <li>Flask</li>
+                        <li>NodeJS</li>
+                        <li>Express</li>
                     </ul>
                 </div>
                 <div>
@@ -109,13 +115,16 @@ const Index = () =>{
             font: 18px bold;
             font-family:Helvetica;
         }
+        .tec-stack h2{
+            margin-bottom:3%;
+        }
         .tec-stack div{
-            padding: 5% 0%;
+            padding: 3% 0%;
             align-items:justify;
             display:inline-flex;
             flex-direction: row;
             flex-wrap:wrap;
-            margin:3%;
+            margin:0% 4%;
         }
         .tec-stack li{
             list-style-type: none;

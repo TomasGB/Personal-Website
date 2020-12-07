@@ -71,8 +71,8 @@ const Projects = () =>{
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>Javascript</li>
-                                <li>Node JS</li>
-                                <li>Express.js</li>
+                                <li>NodeJS</li>
+                                <li>Express</li>
                                 <li>Next.js</li>
                              </ul>
                             </p>
@@ -94,11 +94,11 @@ const Projects = () =>{
                         </div>
                         <div className="card">
                             <div className="card-title">Track my money App</div>
-                            <p>Budget App made with Javascript and React to keep track of all incomes and expenses and calculate the final balance.<br></br>
+                            <p>Budget App made with JavaScript and React to keep track of all incomes and expenses and calculate the final balance.<br></br>
                             <br></br>
                             <h4>Technologies used:</h4>
                             <ul>
-                                <li>Javascript</li>
+                                <li>JavaScript</li>
                                 <li>React</li>
                              </ul>
                             </p>
