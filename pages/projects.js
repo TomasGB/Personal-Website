@@ -241,12 +241,23 @@ const Projects = () =>{
             font-family:Helvetica,Arial;
         }
         .card h4{
-            margin:3% 0%;
+            margin:1% 0%;
             
         }
+        .card ul{
+            padding:1%;
+        }
         .card ul li{
+            font-size:80%;
             margin-top:2%;
+            margin-right:2%;
+            padding:5px;
             font-family: Consolas;
+            background-color: rgba(178, 177, 177, 0.5);
+            width:fit-content;
+            border-radius:0.5rem;
+            display:inline-flex;
+            justify-content:left;
         }
         .captures{
             width:95%;
