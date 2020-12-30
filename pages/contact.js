@@ -1,36 +1,39 @@
-import Head from 'next/head'
-import Container from '../components/container'
-import Socials from '../components/socials'
+import Head from "next/head";
+import Container from "../components/container";
+import Socials from "../components/socials";
 
-const Contact = () =>{
+const Contact = () => {
     return (
         <div>
             <Container>
                 <Head>
                     <title>Tomas Gomez Bermudez | Contact me</title>
                 </Head>
-                    <body>
-                        <div>
+                <body>
+                    <div>
                         <div className="text">
-                            <p>You can find me in any of the following social networks, feel free to send a message.</p>
+                            <p>
+                                You can find me in any of the following social
+                                networks, feel free to send a message.
+                            </p>
                         </div>
-                            <Socials></Socials>
-                        </div>
-                    </body>
+                        <Socials></Socials>
+                    </div>
+                </body>
             </Container>
             <style jsx>{`
-                .text p{
+                .text p {
                     color: #000000;
-                    text-align:center;
+                    text-align: center;
                     margin-top: 10%;
-                    margin-left:10%;
+                    margin-left: 10%;
                     margin-bottom: 4%;
-                    width:80%;
+                    width: 80%;
                     font: 20px bold;
-                    font-family:Helvetica;
+                    font-family: Helvetica;
                 }
             `}</style>
         </div>
-    )
-}
-export default Contact
+    );
+};
+export default Contact;
