@@ -133,7 +133,7 @@ const Index = () => {
                 }
                 .tec-stack li {
                     list-style-type: none;
-                    margin: 10%;
+                    margin: 10% 2%;
                 }
                 .Interests {
                     padding: 5%;

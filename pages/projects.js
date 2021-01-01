@@ -91,19 +91,14 @@ const Projects = () => {
                                 <li>Javascript</li>
                                 <li>NodeJS</li>
                                 <li>Express</li>
+                                <li>React</li>
                                 <li>Next.js</li>
                             </ul>
                         </p>
                         <div className="captures">
-                            <div className="captures-web">
-                                <img
-                                    src="projects captures/portfolio-webview.png"
-                                    alt="portfolio-webview"
-                                />
-                            </div>
                             <div className="captures-mobile">
                                 <img
-                                    src="projects captures/portfolio-mobileview.png"
+                                    src="projects captures/webportfolio.gif"
                                     alt="portfolio-mobileview"
                                 />
                             </div>
@@ -128,42 +123,16 @@ const Projects = () => {
                                 <li>Firebase</li>
                             </ul>
                         </p>
-                        <div className="captures"></div>
-                        <div className="repo-link">
-                            <a href="https://github.com/TomasGB/CashFlow-React-Native-App">
-                                <img src="icons/github.png"></img>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-title">Track my money App</div>
-                        <p>
-                            Budget App made with JavaScript and React to keep
-                            track of all incomes and expenses and calculate the
-                            final balance.<br></br>
-                            <br></br>
-                            <h4>Technologies used:</h4>
-                            <ul>
-                                <li>JavaScript</li>
-                                <li>React</li>
-                            </ul>
-                        </p>
                         <div className="captures">
-                            <div className="captures-web">
-                                <img
-                                    src="projects captures/trackmymoney-webview.png"
-                                    alt="trackmymoney-webview"
-                                />
-                            </div>
                             <div className="captures-mobile">
                                 <img
-                                    src="projects captures/trackmymoney-mobileview.png"
-                                    alt="trackmymoney-mobileview"
+                                    src="projects captures/cashflowapp.gif"
+                                    alt="Cashflow-app-preview"
                                 />
                             </div>
                         </div>
                         <div className="repo-link">
-                            <a href="https://github.com/TomasGB/React-Budget-App">
+                            <a href="https://github.com/TomasGB/CashFlow-React-Native-App">
                                 <img src="icons/github.png"></img>
                             </a>
                         </div>
@@ -242,6 +211,7 @@ const Projects = () => {
                 .repos .card {
                     margin-bottom: 5%;
                     margin-left: 5%;
+                    border-radius: 1rem;
                     width: 90%;
                     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
                         0 6px 50px 0 rgba(0, 0, 0, 0.5);
@@ -249,6 +219,8 @@ const Projects = () => {
                 .repos .card .card-title {
                     padding: 3%;
                     background-color: #202020;
+                    border-top-left-radius: 1rem;
+                    border-top-right-radius: 1rem;
                     color: white;
                     font: 30px bold;
                     font-family: Helvetica;
@@ -256,7 +228,7 @@ const Projects = () => {
                 .repos p {
                     background-color: #ffffff;
                     color: #000000;
-                    margin: 8% 5%;
+                    margin: 8% 5% 3% 5%;
                     text-align: left;
                     font: 18px bold;
                 }
@@ -333,8 +305,8 @@ const Projects = () => {
                 .captures-mobile img {
                     width: 25%;
                     height: 35%;
-                    margin-top: 3%;
                     margin-left: 5%;
+                    margin-bottom: 3%;
                 }
                 .captures-desktop img {
                     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
