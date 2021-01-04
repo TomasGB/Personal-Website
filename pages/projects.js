@@ -41,7 +41,7 @@ const Projects = () => {
                         <div className="captures">
                             <div className="captures-desktop">
                                 <img
-                                    src="projects captures/timelapse-processor.png"
+                                    src="projects captures/timelapseUI.gif"
                                     alt="timelapse-processor-view"
                                 />
                             </div>
