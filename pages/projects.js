@@ -65,6 +65,9 @@ const Projects = () => {
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>Python</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>Eel</li>
                                 <li>Selenium</li>
                                 <li>PyAudio</li>
                                 <li>Pyttsx3</li>
