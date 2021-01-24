@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Container from "../components/container";
 import Socials from "../components/socials";
+import ContactForm from "../components/contactForm";
 
 const Contact = () => {
     return (
@@ -13,11 +14,11 @@ const Contact = () => {
                     <div>
                         <div className="text">
                             <p>
-                                You can find me in any of the following social
-                                networks, feel free to send a message.
+                                Send an email and follow me on my social media.
                             </p>
                         </div>
-                        <Socials></Socials>
+                        <ContactForm />
+                        <Socials />
                     </div>
                 </body>
             </Container>
