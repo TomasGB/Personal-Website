@@ -72,6 +72,22 @@ const Socials = () => {
                         transform: translateY(-10px);
                     }
                 }
+                @media (max-width: 320px) {
+                    .icons {
+                        margin-left: 5%;
+                    }
+                    .icons li a img {
+                        width: 90px;
+                    }
+                    .icons li {
+                        display: inline-flex;
+                        margin: 5%;
+                        list-style-type: none;
+                    }
+                    .icons li:hover {
+                        transform: translateY(-10px);
+                    }
+                }
             `}</style>
         </>
     );
