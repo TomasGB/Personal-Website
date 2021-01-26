@@ -7,6 +7,9 @@ const Projects = () => {
             <Container>
                 <Head>
                     <title>Tomas Gomez Bermudez | Projects</title>
+                    <meta
+                        name="Tomas Gomez Bermudez"
+                        content="Personal website-portfolio"></meta>
                 </Head>
                 <div className="text">
                     <h2>Projects</h2>
@@ -199,10 +202,12 @@ const Projects = () => {
                 }
                 .text h2 {
                     margin-bottom: 5%;
+                    font: 40px bold;
+                    font-family: Helvetica;
                 }
                 .text p {
                     color: #000000;
-                    font: 20px bold;
+                    font: 30px bold;
                     font-family: Helvetica;
                 }
                 .repos {
@@ -225,7 +230,7 @@ const Projects = () => {
                     border-top-left-radius: 1rem;
                     border-top-right-radius: 1rem;
                     color: white;
-                    font: 30px bold;
+                    font: 35px bold;
                     font-family: Helvetica;
                 }
                 .repos p {
@@ -233,7 +238,7 @@ const Projects = () => {
                     color: #000000;
                     margin: 8% 5% 3% 5%;
                     text-align: left;
-                    font: 18px bold;
+                    font: 25px bold;
                 }
                 .repo-link a img {
                     border: 1px solid #ffffff;
@@ -319,6 +324,140 @@ const Projects = () => {
                     height: 25%;
                     margin-bottom: 6%;
                     margin-left: 5%;
+                }
+                @media (max-width: 1440px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 8%;
+                        margin-bottom: 8%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h2 {
+                        margin-bottom: 5%;
+                        font: 30px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 20px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 8% 5% 8%;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        border-radius: 1rem;
+                        width: 90%;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .card-title {
+                        padding: 3%;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 30px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5% 3% 5%;
+                        text-align: left;
+                        font: 18px bold;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 50px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 4%;
+                        margin-left: -7%;
+                    }
+
+                    .social-icons li a img {
+                        width: 49px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                    }
+                    .card ul li {
+                        font-size: 80%;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: Consolas;
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 2%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
                 }
             `}</style>
         </div>
