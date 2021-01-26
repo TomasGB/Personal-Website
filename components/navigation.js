@@ -50,10 +50,10 @@ const Navigation = () => {
                     .navbar-nav div ul li {
                         list-style-type: none;
                         display: inline-block;
-                        padding: 20px;
+                        padding: 15px;
                     }
                     .navbar-nav div ul li a {
-                        font: 18px bold;
+                        font: 15px bold;
                         font-family: Helvetica;
                         color: #ffffff;
                         text-decoration: none;
@@ -75,7 +75,7 @@ const Navigation = () => {
                     .navbar-nav div ul li {
                         list-style-type: none;
                         display: inline-block;
-                        padding: 20px;
+                        padding: 15px;
                     }
                     .navbar-nav div ul li a {
                         font: 14px bold;
