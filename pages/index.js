@@ -255,7 +255,7 @@ const Index = () => {
                     h4 {
                         text-align: center;
                         margin: 5% 5% 10% 5%;
-                        font: 25px bold;
+                        font: 15px bold;
                         font-family: Helvetica;
                     }
                     .introduction p {
