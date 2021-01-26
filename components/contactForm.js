@@ -56,7 +56,7 @@ export default function ContactForm() {
                     margin: 5px 0px;
                     color: #000;
                     font-weight: 700;
-                    font-size: 16px;
+                    font-size: 24px;
                     display: block;
                 }
                 .contact-form input,
@@ -77,7 +77,8 @@ export default function ContactForm() {
                     color: #fff;
                     background-color: #494949;
                     padding: 10px 25px;
-                    width: fit-content;
+                    width: 100%;
+                    margin-top: 35px;
                 }
                 @media (max-width: 1024px) {
                     .form-wrapper {
@@ -112,7 +113,8 @@ export default function ContactForm() {
                         color: #fff;
                         background-color: #494949;
                         padding: 10px 25px;
-                        width: fit-content;
+                        width: 100%;
+                        margin-top: 35px;
                     }
                 }
                 @media (max-width: 425px) {
@@ -148,7 +150,8 @@ export default function ContactForm() {
                         color: #fff;
                         background-color: #494949;
                         padding: 10px 25px;
-                        width: fit-content;
+                        width: 100%;
+                        margin-top: 25px;
                     }
                 }
             `}</style>

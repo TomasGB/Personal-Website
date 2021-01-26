@@ -59,6 +59,24 @@ const Socials = () => {
                 @media (max-width: 768px) {
                     .icons {
                         margin-left: 7%;
+                        margin-top: 5%;
+                    }
+                    .icons li a img {
+                        width: 90px;
+                    }
+                    .icons li {
+                        display: inline-flex;
+                        margin: 5%;
+                        list-style-type: none;
+                    }
+                    .icons li:hover {
+                        transform: translateY(-10px);
+                    }
+                }
+                @media (max-width: 425px) {
+                    .icons {
+                        margin-left: 8%;
+                        margin-top: 5%;
                     }
                     .icons li a img {
                         width: 90px;
@@ -74,7 +92,8 @@ const Socials = () => {
                 }
                 @media (max-width: 320px) {
                     .icons {
-                        margin-left: 5%;
+                        margin-left: 3%;
+                        margin-top: 15%;
                     }
                     .icons li a img {
                         width: 90px;
