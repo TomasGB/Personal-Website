@@ -23,15 +23,30 @@ const Contact = () => {
                 </body>
             </Container>
             <style jsx>{`
-                .text p {
-                    color: #000000;
-                    text-align: center;
-                    margin-top: 10%;
-                    margin-left: 10%;
-                    margin-bottom: 4%;
-                    width: 80%;
-                    font: 20px bold;
-                    font-family: Helvetica;
+                @media (max-width: 2560px) {
+                    .text p {
+                        color: #000000;
+                        text-align: center;
+                        margin-top: 10%;
+                        margin-left: 10%;
+                        margin-bottom: 4%;
+                        width: 80%;
+                        font: 30px bold;
+                        font-family: Helvetica;
+                    }
+                }
+                @media (max-width: 1024px) {
+                    .text p {
+                        font: 25px bold;
+                        font-family: Helvetica;
+                    }
+                }
+                @media (max-width: 768px) {
+                    .text p {
+                        font: 25px bold;
+                        font-family: Helvetica;
+                        margin-bottom: 50px;
+                    }
                 }
             `}</style>
         </div>
