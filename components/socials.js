@@ -107,6 +107,23 @@ const Socials = () => {
                         transform: translateY(-10px);
                     }
                 }
+                @media (max-width: 280px) {
+                    ..icons {
+                        margin-left: 3%;
+                        margin-top: 15%;
+                    }
+                    .icons li a img {
+                        width: 90px;
+                    }
+                    .icons li {
+                        display: inline-flex;
+                        margin: 10px 3px;
+                        list-style-type: none;
+                    }
+                    .icons li:hover {
+                        transform: translateY(-10px);
+                    }
+                }
             `}</style>
         </>
     );
