@@ -15,7 +15,7 @@ const Index = () => {
                     <link rel="icon" href="foto.ico" />
                 </Head>
             </Container>
-            <body>
+            <div>
                 <h1>Tomas Gomez Bermudez</h1>
                 <h4>Electronic Engineering Student</h4>
                 <Photo></Photo>
@@ -83,7 +83,7 @@ const Index = () => {
                         <li>IoT</li>
                     </ul>
                 </div>
-            </body>
+            </div>
             <Footers></Footers>
             <style jsx>{`
                 .introduction {

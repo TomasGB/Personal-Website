@@ -9,8 +9,12 @@ const Contact = () => {
             <Container>
                 <Head>
                     <title>Tomas Gomez Bermudez | Contact me</title>
+                    <meta
+                        name="Tomas Gomez Bermudez"
+                        content="Personal website-portfolio"></meta>
+                    <link rel="icon" href="foto.ico" />
                 </Head>
-                <body>
+                <div>
                     <div>
                         <div className="text">
                             <p>
@@ -20,7 +24,7 @@ const Contact = () => {
                         <ContactForm />
                         <Socials />
                     </div>
-                </body>
+                </div>
             </Container>
             <style jsx>{`
                 @media (max-width: 2560px) {

@@ -10,6 +10,7 @@ const Projects = () => {
                     <meta
                         name="Tomas Gomez Bermudez"
                         content="Personal website-portfolio"></meta>
+                    <link rel="icon" href="foto.ico" />
                 </Head>
                 <div className="text">
                     <h2>Projects</h2>
@@ -31,8 +32,11 @@ const Projects = () => {
                             pictures, apply color correction when needed,
                             histogram equalization and finally export an mp4
                             file with the timelapse with and without processing
-                            to compare the results. <br></br>
-                            <br></br>
+                            to compare the results.
+                        </p>
+                        <br></br>
+                        <br></br>
+                        <div className="cardTech">
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>Python</li>
@@ -40,7 +44,7 @@ const Projects = () => {
                                 <li>Pillow</li>
                                 <li>Tkinter</li>
                             </ul>
-                        </p>
+                        </div>
                         <div className="captures">
                             <div className="captures-desktop">
                                 <img
@@ -63,8 +67,11 @@ const Projects = () => {
                             calendar, Twitch, Twitter). The goal it's to
                             automate daily tasks such as: ask for the time, open
                             websites, events on google calendar, check what
-                            streamers are currently live, etc.<br></br>
-                            <br></br>
+                            streamers are currently live, etc.
+                        </p>
+                        <br></br>
+                        <br></br>
+                        <div className="cardTech">
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>Python</li>
@@ -76,7 +83,7 @@ const Projects = () => {
                                 <li>Pyttsx3</li>
                                 <li>APIs</li>
                             </ul>
-                        </p>
+                        </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/Voice-Assistant">
                                 <img src="icons/github.png"></img>
@@ -90,8 +97,11 @@ const Projects = () => {
                         <p>
                             This website is built using the Next.js framework
                             and styled with jsx for the frontend and the backend
-                            runs a Node JS server throught Express.js .<br></br>
-                            <br></br>
+                            runs a Node JS server throught Express.js .
+                        </p>
+                        <br></br>
+                        <br></br>
+                        <div className="cardTech">
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>Javascript</li>
@@ -100,7 +110,7 @@ const Projects = () => {
                                 <li>React</li>
                                 <li>Next.js</li>
                             </ul>
-                        </p>
+                        </div>
                         <div className="captures">
                             <div className="captures-mobile">
                                 <img
@@ -120,15 +130,18 @@ const Projects = () => {
                         <p>
                             Personal finance tracker app developed with the
                             React Native, Redux and Firebase (Authentication and
-                            Firestore). <br></br>
-                            <br></br>
+                            Firestore).{" "}
+                        </p>
+                        <br></br>
+                        <br></br>
+                        <div className="cardTech">
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>React Native</li>
                                 <li>Redux</li>
                                 <li>Firebase</li>
                             </ul>
-                        </p>
+                        </div>
                         <div className="captures">
                             <div className="captures-mobile">
                                 <img
@@ -150,13 +163,16 @@ const Projects = () => {
                         <p>
                             This was a class project, the goal was to develop a
                             script able to calculate the area of any 2-D polygon
-                            with three diferent methods on MATLAB.<br></br>
-                            <br></br>
+                            with three diferent methods on MATLAB.
+                        </p>
+                        <br></br>
+                        <br></br>
+                        <div className="cardTech">
                             <h4>Technologies used:</h4>
                             <ul>
                                 <li>MATLAB</li>
                             </ul>
-                        </p>
+                        </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/Polygon-surface-calculator">
                                 <img src="icons/github.png"></img>
@@ -233,12 +249,13 @@ const Projects = () => {
                     font: 35px bold;
                     font-family: Helvetica;
                 }
-                .repos p {
+                .cardTech {
                     background-color: #ffffff;
                     color: #000000;
                     margin: 8% 5% 3% 5%;
                     text-align: left;
-                    font: 25px bold;
+                    font: 20px bold;
+                    font-family: "Helvetica";
                 }
                 .repo-link a img {
                     border: 1px solid #ffffff;
