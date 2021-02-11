@@ -1,19 +1,18 @@
+import Link from "next/link";
 const Footers = () => {
     return (
         <div>
             <li>
-                <a href="/projects">
-                    <button type="button" className="btn">
-                        Projects
-                    </button>
-                </a>
+                <Link href="/projects">
+                    <a className="btn">Projects</a>
+                </Link>
             </li>
             <li>
-                <a href="/contact">
-                    <button type="button" className="btn">
-                        Contact me
-                    </button>
-                </a>
+                <li>
+                    <Link href="/contact">
+                        <a className="btn">Contact</a>
+                    </Link>
+                </li>
             </li>
             <style jsx>{`
                 div {
