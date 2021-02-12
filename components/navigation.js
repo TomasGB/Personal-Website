@@ -46,9 +46,10 @@ const Navigation = () => {
                     background-color: #535353;
                     text-decoration: none;
                 }
-                @media (max-width: 1440px) {
+                @media (min-width: 2560px) {
                     .navbar-nav div {
                         background-color: #202020;
+                        margin-bottom: 15px;
                     }
                     .navbar-nav div ul {
                         display: flex;
@@ -58,10 +59,10 @@ const Navigation = () => {
                     .navbar-nav div ul li {
                         list-style-type: none;
                         display: inline-block;
-                        padding: 20px;
+                        padding: 50px;
                     }
                     .navbar-nav div ul li a {
-                        font: 15px bold;
+                        font: 35px bold;
                         font-family: Helvetica;
                         color: #ffffff;
                         text-decoration: none;

@@ -14,6 +14,18 @@ function Photo() {
                         box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.8),
                             0 6px 20px 0 rgba(0, 0, 0, 0.19);
                     }
+                    @media (min-width: 1441px) {
+                        .pic {
+                            display: flex;
+                            margin: auto;
+                            width: 425px;
+                            height: 425px;
+                            border-radius: 50%;
+                            margin-top: 5%;
+                            box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.8),
+                                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        }
+                    }
                 `}
             </style>
         </div>

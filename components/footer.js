@@ -15,29 +15,31 @@ const Footers = () => {
                 </li>
             </li>
             <style jsx>{`
-                div {
-                    margin-top: 0%;
-                    margin-left: 5%;
-                    text-align: center;
-                }
-                li {
-                    list-style-type: none;
-                    text-align: center;
-                    display: inline-flex;
-                    flex-direction: row;
-                    margin: 3% 10%;
-                }
-                .btn {
-                    background-color: #202020;
-                    color: white;
-                    margin-bottom: 3%;
-                    border-radius: 5%;
-                    width: fit-content;
-                    font: 25px bold;
-                    font-family: Helvetica;
-                }
-                .btn:hover {
-                    background-color: #535353;
+                @media (min-width: 2560px) {
+                    div {
+                        margin-top: 0%;
+                        margin-left: 5%;
+                        text-align: center;
+                    }
+                    li {
+                        list-style-type: none;
+                        text-align: center;
+                        display: inline-flex;
+                        flex-direction: row;
+                        margin: 3% 10%;
+                    }
+                    .btn {
+                        background-color: #202020;
+                        color: white;
+                        margin-bottom: 3%;
+                        border-radius: 5%;
+                        width: fit-content;
+                        font: 35px bold;
+                        font-family: Helvetica;
+                    }
+                    .btn:hover {
+                        background-color: #535353;
+                    }
                 }
                 @media (max-width: 1440px) {
                     div {
@@ -51,6 +53,33 @@ const Footers = () => {
                         display: inline-flex;
                         flex-direction: row;
                         margin: 3% 10%;
+                    }
+                    .btn {
+                        background-color: #202020;
+                        color: white;
+                        margin-bottom: 3%;
+                        border-radius: 5%;
+                        width: fit-content;
+                        font: 15px bold;
+                        font-family: Helvetica;
+                    }
+                    .btn:hover {
+                        background-color: #535353;
+                    }
+                }
+                @media (max-width: 425px) {
+                    div {
+                        margin-top: 0%;
+                        margin-left: 0%;
+                        text-align: center;
+                        padding-bottom: 50px;
+                    }
+                    li {
+                        list-style-type: none;
+                        text-align: center;
+                        display: inline-flex;
+                        flex-direction: row;
+                        margin: 3% 4%;
                     }
                     .btn {
                         background-color: #202020;

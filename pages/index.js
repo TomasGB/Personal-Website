@@ -40,7 +40,7 @@ const Index = () => {
                     <div>
                         <ul>
                             <h5>Frontend:</h5>
-                            <li>React</li>
+                            <li>React.js</li>
                             <li>React Native</li>
                             <li>Next.js</li>
                             <li>Bootstrap</li>
@@ -51,7 +51,7 @@ const Index = () => {
                             <h5>Backend:</h5>
                             <li>Flask</li>
                             <li>NodeJS</li>
-                            <li>Express</li>
+                            <li>Express.js</li>
                             <li>Firebase</li>
                         </ul>
                     </div>
@@ -86,82 +86,81 @@ const Index = () => {
             </div>
             <Footers></Footers>
             <style jsx>{`
-                .introduction {
-                    padding: 5%;
-                }
-                h1 {
-                    text-align: center;
-                    margin-top: 5rem;
-                    font: 40px bold;
-                    font-family: Helvetica;
-                }
-                h4 {
-                    text-align: center;
-                    margin: 5% 5% 10% 5%;
-                    font: 35px bold;
-                    font-family: Helvetica;
-                }
-                .introduction p {
-                    color: #000000;
-                    font: 30px bold;
-                    font-family: Helvetica;
-                    display: inline-block;
-                    text-align: center;
-                    width: 80%;
-                    margin-left: 10%;
-                    margin-right: 10%;
-                    padding: 20px;
-                }
-                h2,
-                h5 {
-                    color: #ffffff;
-                }
-                .tec-stack {
-                    background-color: #202020;
-                    color: #ffffff;
-                    text-align: justify;
-                    padding: 8% 5%;
-                    font: 25px bold;
-                    font-family: Helvetica;
-                }
-                .tec-stack h2,
-                h5 {
-                    margin-bottom: 3%;
-                    font: 30px bold;
-                    font-family: Helvetica;
-                }
-                .tec-stack div {
-                    padding: 3% 0%;
-                    align-items: justify;
-                    display: inline-flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    margin: 0% 4%;
-                }
-                .tec-stack li {
-                    list-style-type: none;
-                    margin: 10% 2%;
-                }
-                .Interests {
-                    padding: 5%;
-                }
-                .Interests div {
-                    display: inline-flex;
-                    flex-wrap: wrap;
-                }
-                .Interests p {
-                    color: #000000;
-                    font: 35px bold;
-                    font-family: Helvetica;
-                    text-align: center;
-                    padding: 4%;
-                }
-                .Interests li {
-                    text-align: justify;
-                    margin: 3%;
-                    color: #000000;
-                    font: 30px bold;
-                    font-family: Helvetica;
+                @media (min-width: 1441px) {
+                    .introduction {
+                        padding: 5%;
+                    }
+                    h1 {
+                        text-align: center;
+                        margin-top: 5rem;
+                        font: 60px bold;
+                        font-family: Helvetica;
+                    }
+                    h4 {
+                        text-align: center;
+                        margin: 5% 5% 10% 5%;
+                        font: 45px bold;
+                        font-family: Helvetica;
+                    }
+                    .introduction p {
+                        color: #000000;
+                        font: 40px bold;
+                        font-family: Helvetica;
+                        display: inline-block;
+                        text-align: center;
+                        width: 80%;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        padding: 20px;
+                    }
+                    .tec-stack {
+                        background-color: #202020;
+                        color: #ffffff;
+                        text-align: justify;
+                        padding: 8% 5%;
+                        font: 30px bold;
+                        font-family: Helvetica;
+                    }
+                    .tec-stack h2,
+                    h5 {
+                        color: #ffffff;
+                        margin-bottom: 3%;
+                        font: 40px bold;
+                        font-family: Helvetica;
+                    }
+                    .tec-stack div {
+                        padding: 3% 0%;
+                        align-items: justify;
+                        display: inline-flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        margin: 0% 4%;
+                    }
+                    .tec-stack li {
+                        list-style-type: none;
+                        margin: 10% 2%;
+                    }
+                    .Interests {
+                        padding: 5%;
+                    }
+                    .Interests div {
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .Interests p {
+                        color: #000000;
+                        font: 45px bold;
+                        font-family: Helvetica;
+                        text-align: center;
+                        padding: 4%;
+                    }
+                    .Interests li {
+                        text-align: justify;
+                        margin: 3%;
+                        color: #000000;
+                        font: 40px bold;
+                        font-family: Helvetica;
+                    }
                 }
                 @media (max-width: 1440px) {
                     .introduction {
@@ -212,6 +211,85 @@ const Index = () => {
                         padding: 3% 0%;
                         align-items: justify;
                         display: inline-flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        margin: 0% 4%;
+                    }
+                    .tec-stack li {
+                        list-style-type: none;
+                        margin: 10% 2%;
+                    }
+                    .Interests {
+                        padding: 5%;
+                    }
+                    .Interests div {
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .Interests p {
+                        color: #000000;
+                        font: 25px bold;
+                        font-family: Helvetica;
+                        text-align: center;
+                        padding: 4%;
+                    }
+                    .Interests li {
+                        text-align: justify;
+                        margin: 3%;
+                        color: #000000;
+                        font: 20px bold;
+                        font-family: Helvetica;
+                    }
+                }
+                @media (max-width: 768px) {
+                    .introduction {
+                        padding: 5%;
+                    }
+                    h1 {
+                        text-align: center;
+                        margin-top: 3rem;
+                        font: 25px bold;
+                        font-family: Helvetica;
+                    }
+                    h4 {
+                        text-align: center;
+                        margin: 5% 5% 10% 5%;
+                        font: 15px bold;
+                        font-family: Helvetica;
+                    }
+                    .introduction p {
+                        color: #000000;
+                        font: 20px bold;
+                        font-family: Helvetica;
+                        display: inline-block;
+                        text-align: center;
+                        width: 80%;
+                        margin-left: 10%;
+                        margin-right: 10%;
+                        padding: 20px;
+                    }
+                    h2,
+                    h5 {
+                        color: #ffffff;
+                    }
+                    .tec-stack {
+                        background-color: #202020;
+                        color: #ffffff;
+                        text-align: justify;
+                        padding: 8% 5%;
+                        font: 14px bold;
+                        font-family: Helvetica;
+                    }
+                    .tec-stack h2,
+                    h5 {
+                        margin-bottom: 3%;
+                        font: 14px bold;
+                        font-family: Helvetica;
+                    }
+                    .tec-stack div {
+                        padding: 3% 0%;
+                        align-items: justify;
+                        display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
                         margin: 0% 4%;
