@@ -317,8 +317,10 @@ const Projects = () => {
                         width: 80%;
                         margin-bottom: 50px;
                         display: inline-flex;
+                        color: #000000;
                     }
                     .card ul li {
+                        color: #000000;
                         font-size: 35px;
                         margin-top: 2%;
                         margin-right: 2%;
@@ -468,6 +470,7 @@ const Projects = () => {
                         display: inline-flex;
                     }
                     .card ul li {
+                        color: #000000;
                         font-size: 35px;
                         margin-top: 2%;
                         margin-right: 2%;
@@ -617,7 +620,8 @@ const Projects = () => {
                         display: inline-flex;
                     }
                     .card ul li {
-                        font-size: 14px;
+                        color: #000000;
+                        font-size: 16px;
                         margin-top: 2%;
                         margin-right: 2%;
                         padding: 5px;
@@ -767,6 +771,7 @@ const Projects = () => {
                         flex-wrap: wrap;
                     }
                     .card ul li {
+                        color: #000000;
                         font-size: 14px;
                         margin-top: 2%;
                         margin-right: 2%;
@@ -918,6 +923,7 @@ const Projects = () => {
                         flex-wrap: wrap;
                     }
                     .card ul li {
+                        color: #000000;
                         font-size: 14px;
                         margin-top: 2%;
                         margin-right: 2%;

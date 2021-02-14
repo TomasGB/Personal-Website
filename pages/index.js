@@ -335,7 +335,7 @@ const Index = () => {
                     h1 {
                         text-align: center;
                         margin-top: 3rem;
-                        font: 24px bold;
+                        font: 20px bold;
                         font-family: Helvetica;
                     }
                     h2 {
@@ -348,12 +348,10 @@ const Index = () => {
                         color: #000000;
                         font: 16px bold;
                         font-family: Helvetica;
-                        display: inline-block;
+                        display: inline-flex;
+                        flex-wrap: wrap;
                         text-align: center;
                         width: 85%;
-                        margin-left: 10%;
-                        margin-right: 10%;
-                        padding: 20px;
                     }
                     h4 {
                         color: #ffffff;

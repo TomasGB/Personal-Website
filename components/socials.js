@@ -123,7 +123,7 @@ const Socials = () => {
                         transform: translateY(-10px);
                     }
                 }
-                @media (max-width: 320px) {
+                @media (max-width: 365px) {
                     .icons {
                         margin-left: 3%;
                         margin-top: 15%;
@@ -133,7 +133,7 @@ const Socials = () => {
                     }
                     .icons li {
                         display: inline-flex;
-                        margin: 5%;
+                        margin: 10%;
                         list-style-type: none;
                     }
                     .icons li:hover {
