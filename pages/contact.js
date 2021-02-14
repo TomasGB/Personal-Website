@@ -12,6 +12,7 @@ const Contact = () => {
                     <meta
                         name="description"
                         content="Tomas Gomez Bermudez-personal website-portfolio-contact-page"></meta>
+                    <meta name="theme-color" content="#000000" />
                     <link rel="icon" href="foto.ico" />
                 </Head>
                 <div>
@@ -27,19 +28,31 @@ const Contact = () => {
                 </div>
             </Container>
             <style jsx>{`
-                @media (max-width: 2560px) {
+                @media (min-width: 2560px) {
                     .text p {
                         color: #000000;
                         text-align: center;
-                        margin-top: 10%;
+                        margin-top: 5%;
                         margin-left: 10%;
                         margin-bottom: 4%;
                         width: 80%;
-                        font: 30px bold;
+                        font: 50px bold;
                         font-family: Helvetica;
                     }
                 }
-                @media (max-width: 1024px) {
+                @media (max-width: 2559px) {
+                    .text p {
+                        color: #000000;
+                        text-align: center;
+                        margin-top: 5%;
+                        margin-left: 10%;
+                        margin-bottom: 4%;
+                        width: 80%;
+                        font: 45px bold;
+                        font-family: Helvetica;
+                    }
+                }
+                @media (max-width: 1440px) {
                     .text p {
                         font: 25px bold;
                         font-family: Helvetica;
@@ -47,7 +60,7 @@ const Contact = () => {
                 }
                 @media (max-width: 768px) {
                     .text p {
-                        font: 25px bold;
+                        font: 18px bold;
                         font-family: Helvetica;
                         margin-bottom: 50px;
                     }

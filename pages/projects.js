@@ -3,17 +3,18 @@ import Container from "../components/container";
 
 const Projects = () => {
     return (
-        <div>
+        <main>
             <Container>
                 <Head>
                     <title>Tomas Gomez Bermudez | Projects</title>
                     <meta
                         name="description"
                         content="Tomas Gomez Bermudez-personal-projects-page"></meta>
+                    <meta name="theme-color" content="#000000" />
                     <link rel="icon" href="foto.ico" />
                 </Head>
                 <div className="text">
-                    <h2>Projects</h2>
+                    <h1>Projects</h1>
                     <p>
                         Here is a list of some of the projects I've made
                         throught the years, some of them were class projects and
@@ -34,10 +35,8 @@ const Projects = () => {
                             file with the timelapse with and without processing
                             to compare the results.
                         </p>
-                        <br></br>
-                        <br></br>
                         <div className="cardTech">
-                            <h4>Technologies used:</h4>
+                            <p>Technologies used:</p>
                             <ul>
                                 <li>Python</li>
                                 <li>OpenCV</li>
@@ -49,13 +48,15 @@ const Projects = () => {
                             <div className="captures-desktop">
                                 <img
                                     src="projects captures/timelapseUI.gif"
-                                    alt="timelapse-processor-view"
+                                    alt="automatic-timelapse-processor-app-view"
                                 />
                             </div>
                         </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
-                                <img src="icons/github.png"></img>
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
                             </a>
                         </div>
                     </div>
@@ -69,10 +70,8 @@ const Projects = () => {
                             websites, events on google calendar, check what
                             streamers are currently live, etc.
                         </p>
-                        <br></br>
-                        <br></br>
                         <div className="cardTech">
-                            <h4>Technologies used:</h4>
+                            <p>Technologies used:</p>
                             <ul>
                                 <li>Python</li>
                                 <li>HTML5</li>
@@ -86,7 +85,9 @@ const Projects = () => {
                         </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/Voice-Assistant">
-                                <img src="icons/github.png"></img>
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
                             </a>
                         </div>
                     </div>
@@ -97,12 +98,10 @@ const Projects = () => {
                         <p>
                             This website is built using the Next.js framework
                             and styled with jsx for the frontend and the backend
-                            runs a Node JS server throught Express.js .
+                            runs a NodeJS server throught Express.js .
                         </p>
-                        <br></br>
-                        <br></br>
                         <div className="cardTech">
-                            <h4>Technologies used:</h4>
+                            <p>Technologies used:</p>
                             <ul>
                                 <li>Javascript</li>
                                 <li>NodeJS</li>
@@ -121,7 +120,9 @@ const Projects = () => {
                         </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/Website-Next.js">
-                                <img src="icons/github.png"></img>
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
                             </a>
                         </div>
                     </div>
@@ -132,10 +133,8 @@ const Projects = () => {
                             React Native, Redux and Firebase (Authentication and
                             Firestore).{" "}
                         </p>
-                        <br></br>
-                        <br></br>
                         <div className="cardTech">
-                            <h4>Technologies used:</h4>
+                            <p>Technologies used:</p>
                             <ul>
                                 <li>React Native</li>
                                 <li>Redux</li>
@@ -152,7 +151,9 @@ const Projects = () => {
                         </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/CashFlow-React-Native-App">
-                                <img src="icons/github.png"></img>
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
                             </a>
                         </div>
                     </div>
@@ -165,24 +166,24 @@ const Projects = () => {
                             script able to calculate the area of any 2-D polygon
                             with three diferent methods on MATLAB.
                         </p>
-                        <br></br>
-                        <br></br>
                         <div className="cardTech">
-                            <h4>Technologies used:</h4>
+                            <p>Technologies used:</p>
                             <ul>
                                 <li>MATLAB</li>
                             </ul>
                         </div>
                         <div className="repo-link">
                             <a href="https://github.com/TomasGB/Polygon-surface-calculator">
-                                <img src="icons/github.png"></img>
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
                             </a>
                         </div>
                     </div>
                 </div>
             </Container>
             <div className="footer">
-                <h3>Stay connected</h3>
+                <p>STAY CONNECTED</p>
                 <div className="social-icons">
                     <ul>
                         <li>
@@ -209,138 +210,304 @@ const Projects = () => {
                 </div>
             </div>
             <style jsx>{`
-                .text {
-                    text-align: center;
-                    margin-top: 8%;
-                    margin-bottom: 8%;
-                    margin-left: 10%;
-                    width: 80%;
-                }
-                .text h2 {
-                    margin-bottom: 5%;
-                    font: 40px bold;
-                    font-family: Helvetica;
-                }
-                .text p {
-                    color: #000000;
-                    font: 30px bold;
-                    font-family: Helvetica;
-                }
-                .repos {
-                    background-color: #454545;
-                    text-align: center;
-                    margin: 5% 0% 0% 0%;
-                    padding: 10% 8% 5% 8%;
-                }
-                .repos .card {
-                    margin-bottom: 5%;
-                    margin-left: 5%;
-                    border-radius: 1rem;
-                    width: 90%;
-                    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
-                        0 6px 50px 0 rgba(0, 0, 0, 0.5);
-                }
-                .repos .card .card-title {
-                    padding: 3%;
-                    background-color: #202020;
-                    border-top-left-radius: 1rem;
-                    border-top-right-radius: 1rem;
-                    color: white;
-                    font: 35px bold;
-                    font-family: Helvetica;
-                }
-                .cardTech {
-                    background-color: #ffffff;
-                    color: #000000;
-                    margin: 8% 5% 3% 5%;
-                    text-align: left;
-                    font: 20px bold;
-                    font-family: "Helvetica";
-                }
-                .repo-link a img {
-                    border: 1px solid #ffffff;
-                    width: 50px;
-                    margin-top: 2%;
-                    margin-bottom: 10%;
-                    border-radius: 50%;
-                }
-                .repo-link a img:hover {
-                    border: 5px solid #000000;
-                }
-                h3 {
-                    margin: 5% 0% 0% 0%;
-                    text-align: center;
-                }
-                .footer {
-                    justify-content: center;
-                }
-                .social-icons {
-                    text-align: center;
-                    margin-top: 4%;
-                    margin-left: -7%;
-                }
+                @media (min-width: 2560px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 8%;
+                        margin-bottom: 8%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 5%;
+                        font: 60px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 50px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 8% 5% 8%;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        border-radius: 1rem;
+                        width: 90%;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 40px;
+                    }
+                    .repos .card .card-title {
+                        padding: 3%;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 50px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5% 3% 5%;
+                        text-align: left;
+                        font: 40px bold;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 90px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 50px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 70px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 4%;
+                        margin-bottom: 4%;
+                        margin-left: -7%;
+                    }
 
-                .social-icons li a img {
-                    width: 49px;
+                    .social-icons li a img {
+                        width: 90px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                    }
+                    .card ul li {
+                        font-size: 35px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 2%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
                 }
-                .social-icons li {
-                    display: inline-flex;
-                    list-style-type: none;
-                    margin: 0% 2.5%;
-                }
-                .social-icons a img:hover {
-                    border-radius: 50%;
-                    border: 3px solid #000000;
-                }
-                .card p {
-                    font-family: Helvetica, Arial;
-                }
-                .card h4 {
-                    margin: 1% 0%;
-                }
-                .card ul {
-                    padding: 1%;
-                }
-                .card ul li {
-                    font-size: 80%;
-                    margin-top: 2%;
-                    margin-right: 2%;
-                    padding: 5px;
-                    font-family: Consolas;
-                    background-color: rgba(178, 177, 177, 0.5);
-                    width: fit-content;
-                    border-radius: 0.5rem;
-                    display: inline-flex;
-                    justify-content: left;
-                }
-                .captures {
-                    width: 95%;
-                    display: inline-block;
-                    justify-content: center;
-                }
-                .captures-web img {
-                    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                        0 6px 50px 0 rgba(0, 0, 0, 0.4);
-                    border-radius: 0.5rem;
-                    width: 90%;
-                    height: 70%;
-                    margin-bottom: 2%;
-                    margin-left: 5%;
-                }
-                .captures-mobile img {
-                    width: 25%;
-                    height: 35%;
-                    margin-left: 5%;
-                    margin-bottom: 3%;
-                }
-                .captures-desktop img {
-                    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                        0 6px 40px 0 rgba(0, 0, 0, 0.4);
-                    border-radius: 0.5rem;
-                    width: 50%;
-                    height: 25%;
-                    margin-bottom: 6%;
-                    margin-left: 5%;
+                @media (max-width: 2559px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 8%;
+                        margin-bottom: 8%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 5%;
+                        font: 60px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 50px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 8% 5% 8%;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        border-radius: 1rem;
+                        width: 90%;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 40px;
+                    }
+                    .repos .card .card-title {
+                        padding: 3%;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 50px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5% 3% 5%;
+                        text-align: left;
+                        font: 40px bold;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 90px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 50px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 70px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 4%;
+                        margin-left: -7%;
+                    }
+
+                    .social-icons li a img {
+                        width: 49px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                    }
+                    .card ul li {
+                        font-size: 35px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 2%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
                 }
                 @media (max-width: 1440px) {
                     .text {
@@ -350,7 +517,7 @@ const Projects = () => {
                         margin-left: 10%;
                         width: 80%;
                     }
-                    .text h2 {
+                    .text h1 {
                         margin-bottom: 5%;
                         font: 30px bold;
                         font-family: Helvetica;
@@ -373,6 +540,10 @@ const Projects = () => {
                         width: 90%;
                         box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
                             0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 20px;
                     }
                     .repos .card .card-title {
                         padding: 3%;
@@ -407,6 +578,14 @@ const Projects = () => {
                     .footer {
                         justify-content: center;
                     }
+                    .footer p {
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 50px;
+                    }
                     .social-icons {
                         text-align: center;
                         margin-top: 4%;
@@ -433,13 +612,317 @@ const Projects = () => {
                     }
                     .card ul {
                         padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
                     }
                     .card ul li {
-                        font-size: 80%;
+                        font-size: 14px;
                         margin-top: 2%;
                         margin-right: 2%;
                         padding: 5px;
-                        font-family: Consolas;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 2%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
+                }
+                @media (max-width: 768px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 8%;
+                        margin-bottom: 8%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 5%;
+                        font: 24px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 18px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 8% 5% 8%;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        border-radius: 1rem;
+                        width: 90%;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 18px;
+                    }
+                    .repos .card .card-title {
+                        padding: 3%;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 22px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5% 3% 5%;
+                        text-align: left;
+                        font: 18px bold;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 40px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 50px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 4%;
+                        margin-left: -7%;
+                    }
+
+                    .social-icons li a img {
+                        width: 49px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .card ul li {
+                        font-size: 14px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 2%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
+                }
+                @media (max-width: 425px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 8%;
+                        margin-bottom: 8%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 7%;
+                        font: 20px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 16px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 8% 5% 8%;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        border-radius: 1rem;
+                        width: 90%;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 16px;
+                    }
+                    .repos .card .card-title {
+                        padding: 3%;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 22px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5%;
+                        text-align: left;
+                        font: 16px bold;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 40px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 20px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 50px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 10%;
+                        margin-bottom: 10%;
+                        margin-left: -7%;
+                    }
+
+                    .social-icons li a img {
+                        width: 49px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .card ul li {
+                        font-size: 14px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
                         background-color: rgba(178, 177, 177, 0.5);
                         width: fit-content;
                         border-radius: 0.5rem;
@@ -477,7 +960,7 @@ const Projects = () => {
                     }
                 }
             `}</style>
-        </div>
+        </main>
     );
 };
 export default Projects;
