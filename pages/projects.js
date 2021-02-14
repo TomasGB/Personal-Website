@@ -8,8 +8,8 @@ const Projects = () => {
                 <Head>
                     <title>Tomas Gomez Bermudez | Projects</title>
                     <meta
-                        name="Tomas Gomez Bermudez"
-                        content="Personal website-portfolio"></meta>
+                        name="description"
+                        content="Tomas Gomez Bermudez-personal-projects-page"></meta>
                     <link rel="icon" href="foto.ico" />
                 </Head>
                 <div className="text">

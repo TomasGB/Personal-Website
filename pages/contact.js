@@ -10,8 +10,8 @@ const Contact = () => {
                 <Head>
                     <title>Tomas Gomez Bermudez | Contact me</title>
                     <meta
-                        name="Tomas Gomez Bermudez"
-                        content="Personal website-portfolio"></meta>
+                        name="description"
+                        content="Tomas Gomez Bermudez-personal website-portfolio-contact-page"></meta>
                     <link rel="icon" href="foto.ico" />
                 </Head>
                 <div>

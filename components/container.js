@@ -3,7 +3,7 @@ import Navigation from "./navigation";
 
 const Container = (props) => {
     return (
-        <div>
+        <main>
             <Head>
                 <title>Tomas Gomez Bermudez</title>
                 <link
@@ -13,7 +13,7 @@ const Container = (props) => {
             </Head>
             <Navigation />
             <div>{props.children}</div>
-        </div>
+        </main>
     );
 };
 
