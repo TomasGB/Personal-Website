@@ -53,7 +53,9 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="repo-link">
-                            <a href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App">
+                            <a
+                                href="https://github.com/TomasGB/Automatic-Timelapse-Processing-App"
+                                target="_blank">
                                 <img
                                     src="icons/github.png"
                                     alt="github-logo"></img>
@@ -84,7 +86,9 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="repo-link">
-                            <a href="https://github.com/TomasGB/Voice-Assistant">
+                            <a
+                                href="https://github.com/TomasGB/Voice-Assistant"
+                                target="_blank">
                                 <img
                                     src="icons/github.png"
                                     alt="github-logo"></img>
@@ -119,14 +123,16 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="repo-link">
-                            <a href="https://github.com/TomasGB/Website-Next.js">
+                            <a
+                                href="https://github.com/TomasGB/Website-Next.js"
+                                target="_blank">
                                 <img
                                     src="icons/github.png"
                                     alt="github-logo"></img>
                             </a>
                         </div>
                     </div>
-                    <div className="card">
+                    {/*<div className="card">
                         <div className="card-title">Cash Flow App</div>
                         <p>
                             Personal finance tracker app developed with the
@@ -156,6 +162,39 @@ const Projects = () => {
                                     alt="github-logo"></img>
                             </a>
                         </div>
+                    </div>*/}
+                    <div className="card">
+                        <div className="card-title">CashFlow Web App</div>
+                        <p>
+                            Personal finance tracker app developed with React
+                            and Next.js for the frontend and Firebase
+                            (Authentication and Firestore) for the backend.{" "}
+                        </p>
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>React</li>
+                                <li>Next.js</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </div>
+                        <div className="captures">
+                            <div className="captures-mobile">
+                                <img
+                                    src="projects captures/cashflowapp.gif"
+                                    alt="Cashflow-app-preview"
+                                />
+                            </div>
+                        </div>
+                        <div className="repo-link">
+                            <a
+                                href="https://github.com/TomasGB/CashFlow-web"
+                                target="_blank">
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
+                            </a>
+                        </div>
                     </div>
                     <div className="card">
                         <div className="card-title">
@@ -173,7 +212,9 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="repo-link">
-                            <a href="https://github.com/TomasGB/Polygon-surface-calculator">
+                            <a
+                                href="https://github.com/TomasGB/Polygon-surface-calculator"
+                                target="_blank">
                                 <img
                                     src="icons/github.png"
                                     alt="github-logo"></img>
@@ -187,17 +228,23 @@ const Projects = () => {
                 <div className="social-icons">
                     <ul>
                         <li>
-                            <a href="https://twitter.com/TomasGB_98">
+                            <a
+                                href="https://twitter.com/TomasGB_98"
+                                target="_blank">
                                 <img src="icons/twitter.png"></img>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/gmz.tomas">
+                            <a
+                                href="https://www.instagram.com/gmz.tomas"
+                                target="_blank">
                                 <img src="icons/instagram.png"></img>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/TomasGB">
+                            <a
+                                href="https://github.com/TomasGB"
+                                target="_blank">
                                 <img src="icons/github.png"></img>
                             </a>
                         </li>

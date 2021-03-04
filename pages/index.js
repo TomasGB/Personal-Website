@@ -176,19 +176,19 @@ const Index = () => {
                     }
                     h1 {
                         text-align: center;
-                        margin-top: 5rem;
-                        font: 35px bold;
+                        margin-top: 3rem;
+                        font: 30px bold;
                         font-family: Helvetica;
                     }
                     h2 {
                         text-align: center;
-                        margin: 5%;
-                        font: 25px bold;
+                        margin: 2%;
+                        font: 20px bold;
                         font-family: Helvetica;
                     }
                     .introduction p {
                         color: #000000;
-                        font: 20px bold;
+                        font: 18px bold;
                         font-family: Helvetica;
                         display: inline-block;
                         text-align: center;
@@ -351,7 +351,8 @@ const Index = () => {
                         display: inline-flex;
                         flex-wrap: wrap;
                         text-align: center;
-                        width: 85%;
+                        width: 90%;
+                        margin-left: 5%;
                     }
                     h4 {
                         color: #ffffff;

@@ -4,22 +4,28 @@ const Socials = () => {
             <div className="icons">
                 <ul>
                     <li>
-                        <a href="https://twitter.com/TomasGB_98">
+                        <a
+                            href="https://twitter.com/TomasGB_98"
+                            target="_blank">
                             <img src="icons/twitter.png"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/gmz.tomas">
+                        <a
+                            href="https://www.instagram.com/gmz.tomas"
+                            target="_blank">
                             <img src="icons/instagram.png"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/TomasGB">
+                        <a href="https://github.com/TomasGB" target="_blank">
                             <img src="icons/github.png"></img>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/tomasgomezbermudez/">
+                        <a
+                            href="https://www.linkedin.com/in/tomasgomezbermudez/"
+                            target="_blank">
                             <img src="icons/linkedIn.png"></img>
                         </a>
                     </li>
