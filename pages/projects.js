@@ -63,6 +63,39 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="card">
+                        <div className="card-title">CashFlow Web App</div>
+                        <p>
+                            Personal finance tracker app developed with React
+                            and Next.js for the frontend and Firebase
+                            (Authentication and Firestore) for the backend.{" "}
+                        </p>
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>React</li>
+                                <li>Next.js</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </div>
+                        <div className="captures">
+                            <div className="captures-mobile">
+                                <img
+                                    src="projects captures/cashflowapp.gif"
+                                    alt="Cashflow-app-preview"
+                                />
+                            </div>
+                        </div>
+                        <div className="repo-link">
+                            <a
+                                href="https://github.com/TomasGB/CashFlow-web"
+                                target="_blank">
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="card">
                         <div className="card-title">Voice Assistant</div>
                         <p>
                             Python Assistant capable of taking voice commands
@@ -164,39 +197,6 @@ const Projects = () => {
                         </div>
                     </div>*/}
                     <div className="card">
-                        <div className="card-title">CashFlow Web App</div>
-                        <p>
-                            Personal finance tracker app developed with React
-                            and Next.js for the frontend and Firebase
-                            (Authentication and Firestore) for the backend.{" "}
-                        </p>
-                        <div className="cardTech">
-                            <p>Technologies used:</p>
-                            <ul>
-                                <li>React</li>
-                                <li>Next.js</li>
-                                <li>Firebase</li>
-                            </ul>
-                        </div>
-                        <div className="captures">
-                            <div className="captures-mobile">
-                                <img
-                                    src="projects captures/cashflowapp.gif"
-                                    alt="Cashflow-app-preview"
-                                />
-                            </div>
-                        </div>
-                        <div className="repo-link">
-                            <a
-                                href="https://github.com/TomasGB/CashFlow-web"
-                                target="_blank">
-                                <img
-                                    src="icons/github.png"
-                                    alt="github-logo"></img>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="card">
                         <div className="card-title">
                             Polygon Surface Calculator
                         </div>
@@ -249,7 +249,9 @@ const Projects = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/tomasgomezbermudez/">
+                            <a
+                                href="https://www.linkedin.com/in/tomasgomezbermudez/"
+                                target="_blank">
                                 <img src="icons/linkedIn.png"></img>
                             </a>
                         </li>
