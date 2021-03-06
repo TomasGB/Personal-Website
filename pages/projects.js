@@ -67,7 +67,20 @@ const Projects = () => {
                         <p>
                             Personal finance tracker app developed with React
                             and Next.js for the frontend and Firebase
-                            (Authentication and Firestore) for the backend.{" "}
+                            (Authentication and Firestore) for the backend.
+                            <a
+                                href="https://cashflow.tomasgb.vercel.app/"
+                                target="_blank"
+                                style={{
+                                    textAlign: "left",
+                                    color: "royalblue",
+                                    font: "Helvetica",
+                                    marginTop: "15px",
+                                    marginLeft: "15px",
+                                    marginBottom: "15px",
+                                }}>
+                                Website
+                            </a>
                         </p>
                         <div className="cardTech">
                             <p>Technologies used:</p>
@@ -78,9 +91,9 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="captures">
-                            <div className="captures-mobile">
+                            <div className="captures-web">
                                 <img
-                                    src="projects captures/cashflowapp.gif"
+                                    src="projects captures/cashflowWeb.gif"
                                     alt="Cashflow-app-preview"
                                 />
                             </div>
