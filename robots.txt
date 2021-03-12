@@ -1,4 +1,4 @@
-User-Agent: *
+﻿User-Agent: *
 Allow: /
 Allow: /projects
 Allow: /contact
