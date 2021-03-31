@@ -94,7 +94,13 @@ const Projects = () => {
                             <div className="captures-web">
                                 <img
                                     src="projects captures/cashflowWeb.gif"
-                                    alt="Cashflow-app-preview"
+                                    alt="Cashflow-web-preview"
+                                />
+                            </div>
+                            <div className="captures-mobile">
+                                <img
+                                    src="projects captures/cashflow-mobile.gif"
+                                    alt="Cashflow-mobile-preview"
                                 />
                             </div>
                         </div>
@@ -408,6 +414,7 @@ const Projects = () => {
                     .captures-mobile img {
                         width: 25%;
                         height: 35%;
+                        margin-top: 5%;
                         margin-left: 5%;
                         margin-bottom: 3%;
                     }
@@ -558,6 +565,7 @@ const Projects = () => {
                     .captures-mobile img {
                         width: 25%;
                         height: 35%;
+                        margin-top: 5%;
                         margin-left: 5%;
                         margin-bottom: 3%;
                     }
@@ -708,6 +716,7 @@ const Projects = () => {
                     .captures-mobile img {
                         width: 25%;
                         height: 35%;
+                        margin-top: 5%;
                         margin-left: 5%;
                         margin-bottom: 3%;
                     }
@@ -853,7 +862,7 @@ const Projects = () => {
                         border-radius: 0.5rem;
                         width: 90%;
                         height: 70%;
-                        margin-bottom: 2%;
+                        margin-bottom: 5%;
                         margin-left: 5%;
                     }
                     .captures-mobile img {
@@ -1005,7 +1014,7 @@ const Projects = () => {
                         border-radius: 0.5rem;
                         width: 90%;
                         height: 70%;
-                        margin-bottom: 2%;
+                        margin-bottom: 10%;
                         margin-left: 5%;
                     }
                     .captures-mobile img {
