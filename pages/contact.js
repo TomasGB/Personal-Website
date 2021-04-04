@@ -12,7 +12,7 @@ const Contact = () => {
                     <meta
                         name="description"
                         content="Tomas Gomez Bermudez-personal website-portfolio-contact-page"></meta>
-                    <meta name="theme-color" content="#000000" />
+                    <meta name="theme-color" content="#202020" />
                     <link rel="icon" href="foto.ico" />
                 </Head>
                 <div>

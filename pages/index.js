@@ -12,7 +12,7 @@ const Index = () => {
                     <meta
                         name="description"
                         content="Tomas Gomez Bermudez-personal website-portfolio"></meta>
-                    <meta name="theme-color" content="#000000" />
+                    <meta name="theme-color" content="#202020" />
                     <link rel="icon" href="foto.ico" />
                 </Head>
             </Container>
