@@ -175,6 +175,12 @@ const Projects = () => {
                             </ul>
                         </div>
                         <div className="captures">
+                            <div className="captures-web">
+                                <img
+                                    src="projects captures/webportfolio-web.gif"
+                                    alt="Portfolio-web-preview"
+                                />
+                            </div>
                             <div className="captures-mobile">
                                 <img
                                     src="projects captures/webportfolio.gif"
