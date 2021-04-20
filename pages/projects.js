@@ -30,10 +30,23 @@ const Projects = () => {
                         <p className="card-description">
                             The goal of this project was to automate the process
                             of making a timelapse, that includes taking
-                            pictures, apply color correction and histogram
+                            pictures, apply gamma correction and histogram
                             equalization when needed and finally export an mp4
                             files with of the timelapse with and without
                             processing to compare the results.
+                            <a
+                                href="https://timelapsing.vercel.app/"
+                                target="_blank"
+                                style={{
+                                    textAlign: "left",
+                                    color: "royalblue",
+                                    font: "Helvetica",
+                                    marginTop: "15px",
+                                    marginLeft: "15px",
+                                    marginBottom: "15px",
+                                }}>
+                                Website
+                            </a>
                         </p>
                         <div className="repo-link">
                             <a
@@ -98,6 +111,7 @@ const Projects = () => {
                             <ul>
                                 <li>React</li>
                                 <li>Next.js</li>
+                                <li>NodeJS</li>
                                 <li>Firebase</li>
                             </ul>
                         </div>
@@ -139,7 +153,7 @@ const Projects = () => {
                             <p>Technologies used:</p>
                             <ul>
                                 <li>Python</li>
-                                <li>Selenium</li>
+                                <li>Selenium Webdriver</li>
                                 <li>PyAudio</li>
                                 <li>Pyttsx3</li>
                                 <li>APIs</li>
@@ -189,37 +203,6 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    {/*<div className="card">
-                        <div className="card-title">Cash Flow App</div>
-                        <p>
-                            Personal finance tracker app developed with the
-                            React Native, Redux and Firebase (Authentication and
-                            Firestore).{" "}
-                        </p>
-                        <div className="cardTech">
-                            <p>Technologies used:</p>
-                            <ul>
-                                <li>React Native</li>
-                                <li>Redux</li>
-                                <li>Firebase</li>
-                            </ul>
-                        </div>
-                        <div className="captures">
-                            <div className="captures-mobile">
-                                <img
-                                    src="projects captures/cashflowapp.gif"
-                                    alt="Cashflow-app-preview"
-                                />
-                            </div>
-                        </div>
-                        <div className="repo-link">
-                            <a href="https://github.com/TomasGB/CashFlow-React-Native-App">
-                                <img
-                                    src="icons/github.png"
-                                    alt="github-logo"></img>
-                            </a>
-                        </div>
-                    </div>*/}
                     <div className="card">
                         <div className="card-title">
                             Polygon Surface Calculator
@@ -789,8 +772,8 @@ const Projects = () => {
                         justify-content: center;
                     }
                     .captures-web img {
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 50px 0 rgba(0, 0, 0, 0.3);
+                        box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 30px 0 rgba(0, 0, 0, 0.4);
                         border-radius: 0.5rem;
                         width: 100%;
                         height: 90%;
@@ -799,7 +782,7 @@ const Projects = () => {
                         width: 45%;
                         height: 80%;
                         margin-top: 15%;
-                        margin-left: 20%;
+                        margin-left: 25%;
                         margin-bottom: 3%;
                     }
                     .captures-desktop img {
