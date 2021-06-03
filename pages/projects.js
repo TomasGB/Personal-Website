@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className="repos">
                     <div className="card">
                         <div className="card-title">
-                            Automatic Timelapse Processor
+                            📷 Automatic Timelapse Processor
                         </div>
                         <p className="card-description">
                             The goal of this project was to automate the process
@@ -76,7 +76,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <div className="card-title">CashFlow Web App</div>
+                        <div className="card-title">💵 CashFlow Web App</div>
                         <p className="card-description">
                             Personal finance tracker app developed with React
                             and Next.js for the frontend and Firebase for the
@@ -131,7 +131,48 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <div className="card-title">Voice Assistant</div>
+                        <div className="card-title">
+                            🚌 Realtime Bus Tracker
+                        </div>
+                        <p className="card-description">
+                            Web application to keep track on realtime of
+                            different bus lines and display them on a map,
+                            utilizing Python, Flask, Folium and city's API.
+                            <a
+                                href="https://busgpsapi.herokuapp.com/"
+                                target="_blank"
+                                style={{
+                                    textAlign: "left",
+                                    color: "royalblue",
+                                    font: "Helvetica",
+                                    marginTop: "15px",
+                                    marginLeft: "15px",
+                                    marginBottom: "15px",
+                                }}>
+                                Website
+                            </a>
+                        </p>
+                        <div className="repo-link">
+                            <a
+                                href="https://github.com/TomasGB/bus-tracker-web-app"
+                                target="_blank">
+                                <img
+                                    src="icons/github.png"
+                                    alt="github-logo"></img>
+                            </a>
+                        </div>
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Flask</li>
+                                <li>Folium</li>
+                                <li>APIs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-title">🤖 Voice Assistant</div>
                         <p className="card-description">
                             Python Assistant capable of taking voice commands
                             and interact with different third party APIs (Google
