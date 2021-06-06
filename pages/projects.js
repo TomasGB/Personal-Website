@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Container from "../components/container";
 
-const Projects = () => {
+const Projects2 = () => {
     return (
         <main>
             <Container>
@@ -26,6 +26,15 @@ const Projects = () => {
                     <div className="card">
                         <div className="card-title">
                             📷 Automatic Timelapse Processor
+                        </div>
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>OpenCV</li>
+                                <li>Pillow</li>
+                                <li>Tkinter</li>
+                            </ul>
                         </div>
                         <p className="card-description">
                             The goal of this project was to automate the process
@@ -57,26 +66,18 @@ const Projects = () => {
                                     alt="github-logo"></img>
                             </a>
                         </div>
-                        <div className="cardTech">
-                            <p>Technologies used:</p>
-                            <ul>
-                                <li>Python</li>
-                                <li>OpenCV</li>
-                                <li>Pillow</li>
-                                <li>Tkinter</li>
-                            </ul>
-                        </div>
-                        <div className="captures">
-                            <div className="captures-desktop">
-                                <img
-                                    src="projects captures/timelapseUI.gif"
-                                    alt="automatic-timelapse-processor-app-view"
-                                />
-                            </div>
-                        </div>
                     </div>
                     <div className="card">
                         <div className="card-title">💵 CashFlow Web App</div>
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>React</li>
+                                <li>Next.js</li>
+                                <li>NodeJS</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </div>
                         <p className="card-description">
                             Personal finance tracker app developed with React
                             and Next.js for the frontend and Firebase for the
@@ -97,6 +98,7 @@ const Projects = () => {
                                 Website
                             </a>
                         </p>
+
                         <div className="repo-link">
                             <a
                                 href="https://github.com/TomasGB/CashFlow-web"
@@ -106,33 +108,19 @@ const Projects = () => {
                                     alt="github-logo"></img>
                             </a>
                         </div>
-                        <div className="cardTech">
-                            <p>Technologies used:</p>
-                            <ul>
-                                <li>React</li>
-                                <li>Next.js</li>
-                                <li>NodeJS</li>
-                                <li>Firebase</li>
-                            </ul>
-                        </div>
-                        <div className="captures">
-                            <div className="captures-web">
-                                <img
-                                    src="projects captures/cashflowWeb.gif"
-                                    alt="Cashflow-web-preview"
-                                />
-                            </div>
-                            <div className="captures-mobile">
-                                <img
-                                    src="projects captures/cashflow-mobile.gif"
-                                    alt="Cashflow-mobile-preview"
-                                />
-                            </div>
-                        </div>
                     </div>
                     <div className="card">
                         <div className="card-title">
                             🚌 Realtime Bus Tracker
+                        </div>
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>Python</li>
+                                <li>Flask</li>
+                                <li>Folium</li>
+                                <li>APIs</li>
+                            </ul>
                         </div>
                         <p className="card-description">
                             Web application to keep track on realtime of
@@ -161,18 +149,19 @@ const Projects = () => {
                                     alt="github-logo"></img>
                             </a>
                         </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-title">🤖 Voice Assistant </div>
                         <div className="cardTech">
                             <p>Technologies used:</p>
                             <ul>
                                 <li>Python</li>
-                                <li>Flask</li>
-                                <li>Folium</li>
+                                <li>Selenium Webdriver</li>
+                                <li>PyAudio</li>
+                                <li>Pyttsx3</li>
                                 <li>APIs</li>
                             </ul>
                         </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-title">🤖 Voice Assistant</div>
                         <p className="card-description">
                             Python Assistant capable of taking voice commands
                             and interact with different third party APIs (Google
@@ -190,20 +179,18 @@ const Projects = () => {
                                     alt="github-logo"></img>
                             </a>
                         </div>
+                    </div>
+                    <div className="card">
+                        <div className="card-title">Portfolio Website</div>
                         <div className="cardTech">
                             <p>Technologies used:</p>
                             <ul>
-                                <li>Python</li>
-                                <li>Selenium Webdriver</li>
-                                <li>PyAudio</li>
-                                <li>Pyttsx3</li>
-                                <li>APIs</li>
+                                <li>Javascript</li>
+                                <li>NodeJS</li>
+                                <li>Express</li>
+                                <li>React</li>
+                                <li>Next.js</li>
                             </ul>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="card-title">
-                            Next.js + Express.js Website
                         </div>
                         <p className="card-description">
                             This website is built using the Next.js framework
@@ -219,34 +206,17 @@ const Projects = () => {
                                     alt="github-logo"></img>
                             </a>
                         </div>
-                        <div className="cardTech">
-                            <p>Technologies used:</p>
-                            <ul>
-                                <li>Javascript</li>
-                                <li>NodeJS</li>
-                                <li>Express</li>
-                                <li>React</li>
-                                <li>Next.js</li>
-                            </ul>
-                        </div>
-                        <div className="captures">
-                            <div className="captures-web">
-                                <img
-                                    src="projects captures/webportfolio-web.gif"
-                                    alt="Portfolio-web-preview"
-                                />
-                            </div>
-                            <div className="captures-mobile">
-                                <img
-                                    src="projects captures/webportfolio.gif"
-                                    alt="portfolio-mobileview"
-                                />
-                            </div>
-                        </div>
                     </div>
                     <div className="card">
                         <div className="card-title">
                             Polygon Surface Calculator
+                        </div>
+
+                        <div className="cardTech">
+                            <p>Technologies used:</p>
+                            <ul>
+                                <li>MATLAB</li>
+                            </ul>
                         </div>
                         <p className="card-description">
                             This was a class project, the goal was to develop a
@@ -261,12 +231,6 @@ const Projects = () => {
                                     src="icons/github.png"
                                     alt="github-logo"></img>
                             </a>
-                        </div>
-                        <div className="cardTech">
-                            <p>Technologies used:</p>
-                            <ul>
-                                <li>MATLAB</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -307,17 +271,17 @@ const Projects = () => {
                 </div>
             </div>
             <style jsx>{`
-                @media (min-width: 2560px) {
+                @media (min-width: 2561px) {
                     .text {
                         text-align: center;
-                        margin-top: 8%;
-                        margin-bottom: 8%;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
                         margin-left: 10%;
                         width: 80%;
                     }
                     .text h1 {
-                        margin-bottom: 5%;
-                        font: 60px bold;
+                        margin-bottom: 7%;
+                        font: 75px bold;
                         font-family: Helvetica;
                     }
                     .text p {
@@ -329,574 +293,67 @@ const Projects = () => {
                         background-color: #454545;
                         text-align: center;
                         margin: 5% 0% 0% 0%;
-                        padding: 10% 8% 5% 8%;
+                        padding: 10% 2% 5% 2%;
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
-                        justify-content: space-evenly;
                     }
                     .repos .card {
                         margin-bottom: 5%;
                         margin-left: 5%;
+                        padding-bottom: 5%;
                         border-radius: 1rem;
-                        width: 45%;
+                        width: 600px;
+                        height: 900px;
                         box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
                             0 6px 50px 0 rgba(0, 0, 0, 0.5);
                     }
                     .repos .card .cardTech p {
                         margin-top: 25px;
-                        margin-left: 25px;
-                        font-size: 40px;
-                        font-weight: 600;
-                        display: flex;
+                        font-size: 35px;
                     }
                     .repos .card .cardTech ul {
                         display: flex;
                         flex-wrap: wrap;
                         justify-content: center;
                         align-self: center;
-                        margin-left: 25px;
+                        margin: 0% 0% 5% 0%;
+                        width: 100%;
                     }
                     .repos .card .cardTech li {
-                        font-size: 30px;
+                        font-size: 28px;
                     }
                     .repos .card .card-title {
-                        padding: 3%;
-                        height: 100px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
+                        padding: 5%;
+                        height: 150px;
                         background-color: #202020;
                         border-top-left-radius: 1rem;
                         border-top-right-radius: 1rem;
                         color: white;
-                        font: 45px bold;
-                        font-family: Helvetica;
-                    }
-                    .repos .card-description {
-                        background-color: #ffffff;
-                        color: #000000;
-                        margin: 8% 5% 3% 5%;
-                        text-align: center;
-                        font: 35px bold;
-                        font-family: Helvetica;
-                        height: 300px;
-                    }
-                    .repo-link {
-                        display: flex;
-                        justify-content: center;
-                        margin-top: 25px;
-                    }
-                    .repo-link a img {
-                        border: 1px solid #ffffff;
-                        width: 100px;
-                        margin-top: 2%;
-                        margin-bottom: 10%;
-                        border-radius: 50%;
-                    }
-                    .repo-link a img:hover {
-                        border: 5px solid #000000;
-                    }
-                    h3 {
-                        margin: 5% 0% 0% 0%;
-                        text-align: center;
-                    }
-                    .footer {
-                        justify-content: center;
-                    }
-                    .footer p {
-                        text-align: center;
-                        font-size: 45px;
-                        font-weight: 400;
-                        font-family: "Helvetica";
-                        color: #000000;
-                        margin-top: 50px;
-                    }
-                    .social-icons {
-                        text-align: center;
-                        margin-top: 2%;
-                        margin-left: -7%;
-                    }
-
-                    .social-icons li a img {
-                        width: 100px;
-                    }
-                    .social-icons li {
-                        display: inline-flex;
-                        list-style-type: none;
-                        margin: 0% 2.5%;
-                    }
-                    .social-icons a img:hover {
-                        border-radius: 50%;
-                        border: 3px solid #000000;
-                    }
-                    .card p {
-                        font-family: Helvetica, Arial;
-                    }
-                    .card h4 {
-                        margin: 1% 0%;
-                    }
-                    .card ul {
-                        padding: 1%;
-                        width: 80%;
-                        margin-bottom: 50px;
-                        display: inline-flex;
-                    }
-                    .card ul li {
-                        color: #000000;
-                        font-size: 16px;
-                        margin-top: 2%;
-                        margin-right: 2%;
-                        padding: 5px;
-                        font-family: "Consolas";
-                        background-color: rgba(178, 177, 177, 0.5);
-                        width: fit-content;
-                        border-radius: 0.5rem;
-                        display: inline-flex;
-                        justify-content: left;
-                    }
-                    .captures {
-                        width: 100%;
-                        height: fit-content;
-                        display: flex;
-                        justify-content: center;
-                    }
-                    .captures-web img {
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 50px 0 rgba(0, 0, 0, 0.3);
-                        border-radius: 0.5rem;
-                        width: 100%;
-                        height: 90%;
-                        margin-left: 25px;
-                    }
-                    .captures-mobile img {
-                        width: 45%;
-                        height: 80%;
-                        margin-top: 15%;
-                        margin-left: 20%;
-                        margin-bottom: 3%;
-                    }
-                    .captures-desktop img {
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 40px 0 rgba(0, 0, 0, 0.3);
-                        border-radius: 0.5rem;
-                        width: 65%;
-                        height: 95%;
-                    }
-                }
-                @media (max-width: 2559px) {
-                    .text {
-                        text-align: center;
-                        margin-top: 8%;
-                        margin-bottom: 8%;
-                        margin-left: 10%;
-                        width: 80%;
-                    }
-                    .text h1 {
-                        margin-bottom: 5%;
-                        font: 60px bold;
-                        font-family: Helvetica;
-                    }
-                    .text p {
-                        color: #000000;
-                        font: 40px bold;
-                        font-family: Helvetica;
-                    }
-                    .repos {
-                        background-color: #454545;
-                        text-align: center;
-                        margin: 5% 0% 0% 0%;
-                        padding: 10% 8% 5% 8%;
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        justify-content: space-evenly;
-                    }
-                    .repos .card {
-                        margin-bottom: 5%;
-                        margin-left: 5%;
-                        border-radius: 1rem;
-                        width: 45%;
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
-                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
-                    }
-                    .repos .card .cardTech p {
-                        margin-top: 25px;
-                        margin-left: 25px;
-                        font-size: 40px;
-                        font-weight: 600;
-                        display: flex;
-                    }
-                    .repos .card .cardTech ul {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        align-self: center;
-                        margin-left: 25px;
-                    }
-                    .repos .card .cardTech li {
-                        font-size: 30px;
-                    }
-                    .repos .card .card-title {
-                        padding: 3%;
-                        height: 100px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: #202020;
-                        border-top-left-radius: 1rem;
-                        border-top-right-radius: 1rem;
-                        color: white;
-                        font: 45px bold;
-                        font-family: Helvetica;
-                    }
-                    .repos .card-description {
-                        background-color: #ffffff;
-                        color: #000000;
-                        margin: 8% 5% 3% 5%;
-                        text-align: center;
-                        font: 35px bold;
-                        font-family: Helvetica;
-                        height: 300px;
-                    }
-                    .repo-link {
-                        display: flex;
-                        justify-content: center;
-                        margin-top: 25px;
-                    }
-                    .repo-link a img {
-                        border: 1px solid #ffffff;
-                        width: 100px;
-                        margin-top: 2%;
-                        margin-bottom: 10%;
-                        border-radius: 50%;
-                    }
-                    .repo-link a img:hover {
-                        border: 5px solid #000000;
-                    }
-                    h3 {
-                        margin: 5% 0% 0% 0%;
-                        text-align: center;
-                    }
-                    .footer {
-                        justify-content: center;
-                    }
-                    .footer p {
-                        text-align: center;
-                        font-size: 45px;
-                        font-weight: 400;
-                        font-family: "Helvetica";
-                        color: #000000;
-                        margin-top: 50px;
-                    }
-                    .social-icons {
-                        text-align: center;
-                        margin-top: 2%;
-                        margin-left: -7%;
-                    }
-
-                    .social-icons li a img {
-                        width: 100px;
-                    }
-                    .social-icons li {
-                        display: inline-flex;
-                        list-style-type: none;
-                        margin: 0% 2.5%;
-                    }
-                    .social-icons a img:hover {
-                        border-radius: 50%;
-                        border: 3px solid #000000;
-                    }
-                    .card p {
-                        font-family: Helvetica, Arial;
-                    }
-                    .card h4 {
-                        margin: 1% 0%;
-                    }
-                    .card ul {
-                        padding: 1%;
-                        width: 80%;
-                        margin-bottom: 50px;
-                        display: inline-flex;
-                    }
-                    .card ul li {
-                        color: #000000;
-                        font-size: 16px;
-                        margin-top: 2%;
-                        margin-right: 2%;
-                        padding: 5px;
-                        font-family: "Consolas";
-                        background-color: rgba(178, 177, 177, 0.5);
-                        width: fit-content;
-                        border-radius: 0.5rem;
-                        display: inline-flex;
-                        justify-content: left;
-                    }
-                    .captures {
-                        width: 100%;
-                        height: fit-content;
-                        display: flex;
-                        justify-content: center;
-                    }
-                    .captures-web img {
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 50px 0 rgba(0, 0, 0, 0.3);
-                        border-radius: 0.5rem;
-                        width: 100%;
-                        height: 90%;
-                        margin-left: 25px;
-                    }
-                    .captures-mobile img {
-                        width: 45%;
-                        height: 80%;
-                        margin-top: 15%;
-                        margin-left: 20%;
-                        margin-bottom: 3%;
-                    }
-                    .captures-desktop img {
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 40px 0 rgba(0, 0, 0, 0.3);
-                        border-radius: 0.5rem;
-                        width: 65%;
-                        height: 95%;
-                    }
-                }
-                @media (max-width: 1440px) {
-                    .text {
-                        text-align: center;
-                        margin-top: 8%;
-                        margin-bottom: 8%;
-                        margin-left: 10%;
-                        width: 80%;
-                    }
-                    .text h1 {
-                        margin-bottom: 5%;
-                        font: 30px bold;
-                        font-family: Helvetica;
-                    }
-                    .text p {
-                        color: #000000;
-                        font: 20px bold;
-                        font-family: Helvetica;
-                    }
-                    .repos {
-                        background-color: #454545;
-                        text-align: center;
-                        margin: 5% 0% 0% 0%;
-                        padding: 10% 8% 5% 8%;
-                        display: flex;
-                        flex-direction: row;
-                        flex-wrap: wrap;
-                        justify-content: space-evenly;
-                    }
-                    .repos .card {
-                        margin-bottom: 5%;
-                        margin-left: 5%;
-                        border-radius: 1rem;
-                        width: 35%;
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
-                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
-                    }
-                    .repos .card .cardTech p {
-                        margin-top: 25px;
-                        font-size: 16px;
-                        font-weight: 600;
-                    }
-                    .repos .card .cardTech ul {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: center;
-                        align-self: center;
-                    }
-                    .repos .card .cardTech li {
-                        font-size: 12px;
-                    }
-                    .repos .card .card-title {
-                        padding: 3%;
-                        height: 100px;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        background-color: #202020;
-                        border-top-left-radius: 1rem;
-                        border-top-right-radius: 1rem;
-                        color: white;
-                        font: 25px bold;
-                        font-family: Helvetica;
-                    }
-                    .repos .card-description {
-                        background-color: #ffffff;
-                        color: #000000;
-                        margin: 8% 5% 3% 5%;
-                        text-align: center;
-                        font: 14px bold;
-                        font-family: Helvetica;
-                        height: 100px;
-                    }
-                    .repo-link {
-                        display: flex;
-                        justify-content: center;
-                        margin-top: 25px;
-                    }
-                    .repo-link a img {
-                        border: 1px solid #ffffff;
-                        width: 50px;
-                        margin-top: 2%;
-                        margin-bottom: 10%;
-                        border-radius: 50%;
-                    }
-                    .repo-link a img:hover {
-                        border: 5px solid #000000;
-                    }
-                    h3 {
-                        margin: 5% 0% 0% 0%;
-                        text-align: center;
-                    }
-                    .footer {
-                        justify-content: center;
-                    }
-                    .footer p {
-                        text-align: center;
-                        font-size: 24px;
-                        font-weight: 400;
-                        font-family: "Helvetica";
-                        color: #000000;
-                        margin-top: 50px;
-                    }
-                    .social-icons {
-                        text-align: center;
-                        margin-top: 4%;
-                        margin-left: -7%;
-                    }
-
-                    .social-icons li a img {
-                        width: 49px;
-                    }
-                    .social-icons li {
-                        display: inline-flex;
-                        list-style-type: none;
-                        margin: 0% 2.5%;
-                    }
-                    .social-icons a img:hover {
-                        border-radius: 50%;
-                        border: 3px solid #000000;
-                    }
-                    .card p {
-                        font-family: Helvetica, Arial;
-                    }
-                    .card h4 {
-                        margin: 1% 0%;
-                    }
-                    .card ul {
-                        padding: 1%;
-                        width: 80%;
-                        margin-bottom: 50px;
-                        display: inline-flex;
-                    }
-                    .card ul li {
-                        color: #000000;
-                        font-size: 16px;
-                        margin-top: 2%;
-                        margin-right: 2%;
-                        padding: 5px;
-                        font-family: "Consolas";
-                        background-color: rgba(178, 177, 177, 0.5);
-                        width: fit-content;
-                        border-radius: 0.5rem;
-                        display: inline-flex;
-                        justify-content: left;
-                    }
-                    .captures {
-                        width: 100%;
-                        height: fit-content;
-                        display: flex;
-                        justify-content: center;
-                    }
-                    .captures-web img {
-                        box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 30px 0 rgba(0, 0, 0, 0.4);
-                        border-radius: 0.5rem;
-                        width: 100%;
-                        height: 90%;
-                    }
-                    .captures-mobile img {
-                        width: 45%;
-                        height: 80%;
-                        margin-top: 15%;
-                        margin-left: 25%;
-                        margin-bottom: 3%;
-                    }
-                    .captures-desktop img {
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
-                            0 6px 40px 0 rgba(0, 0, 0, 0.3);
-                        border-radius: 0.5rem;
-                        width: 50%;
-                        height: 90%;
-                    }
-                }
-                @media (max-width: 768px) {
-                    .text {
-                        text-align: center;
-                        margin-top: 8%;
-                        margin-bottom: 8%;
-                        margin-left: 10%;
-                        width: 80%;
-                    }
-                    .text h1 {
-                        margin-bottom: 5%;
-                        font: 24px bold;
-                        font-family: Helvetica;
-                    }
-                    .text p {
-                        color: #000000;
-                        font: 18px bold;
-                        font-family: Helvetica;
-                    }
-                    .repos {
-                        background-color: #454545;
-                        text-align: center;
-                        margin: 5% 0% 0% 0%;
-                        padding: 10% 8% 5% 8%;
-                    }
-                    .repos .card {
-                        margin-bottom: 5%;
-                        margin-left: 5%;
-                        border-radius: 1rem;
-                        width: 90%;
-                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
-                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
-                    }
-                    .repos .card .cardTech p {
-                        margin-top: 5px;
-                        font-size: 18px;
-                    }
-                    .repos .card .card-title {
-                        padding: 3%;
-                        background-color: #202020;
-                        border-top-left-radius: 1rem;
-                        border-top-right-radius: 1rem;
-                        color: white;
-                        font: 22px bold;
+                        font: 42px bold;
                         font-family: Helvetica;
                     }
                     .repos .card-description {
                         background-color: #ffffff;
                         color: #000000;
                         text-align: center;
-                        font: 14px bold;
+                        font: 28px bold;
                         font-family: Helvetica;
                         height: fit-content;
                     }
                     .repos p {
                         background-color: #ffffff;
                         color: #000000;
-                        margin: 8% 5% 3% 5%;
+                        margin: 8% 5%;
                         text-align: left;
-                        font: 18px bold;
+                        font: 50px bold;
+                    }
+                    .repo-link {
+                        margin-top: 5%;
                     }
                     .repo-link a img {
                         border: 1px solid #ffffff;
-                        width: 40px;
+                        width: 65px;
                         margin-top: 2%;
                         margin-bottom: 10%;
                         border-radius: 50%;
@@ -913,20 +370,21 @@ const Projects = () => {
                     }
                     .footer p {
                         text-align: center;
-                        font-size: 20px;
+                        font-size: 45px;
                         font-weight: 400;
                         font-family: "Helvetica";
                         color: #000000;
-                        margin-top: 50px;
+                        margin-top: 80px;
                     }
                     .social-icons {
                         text-align: center;
                         margin-top: 4%;
+                        margin-bottom: 5%;
                         margin-left: -7%;
                     }
 
                     .social-icons li a img {
-                        width: 49px;
+                        width: 70px;
                     }
                     .social-icons li {
                         display: inline-flex;
@@ -974,7 +432,540 @@ const Projects = () => {
                         border-radius: 0.5rem;
                         width: 90%;
                         height: 70%;
+                        margin-bottom: 20%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
+                }
+                @media (max-width: 2560px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 5%;
                         margin-bottom: 5%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 7%;
+                        font: 75px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 40px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 2% 5% 2%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        padding-bottom: 5%;
+                        border-radius: 1rem;
+                        width: 600px;
+                        height: 900px;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 25px;
+                        font-size: 35px;
+                    }
+                    .repos .card .cardTech ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-self: center;
+                        margin: 0% 0% 5% 0%;
+                        width: 100%;
+                    }
+                    .repos .card .cardTech li {
+                        font-size: 28px;
+                    }
+                    .repos .card .card-title {
+                        padding: 5%;
+                        height: 150px;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 42px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos .card-description {
+                        background-color: #ffffff;
+                        color: #000000;
+                        text-align: center;
+                        font: 28px bold;
+                        font-family: Helvetica;
+                        height: fit-content;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5%;
+                        text-align: left;
+                        font: 50px bold;
+                    }
+                    .repo-link {
+                        margin-top: 5%;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 65px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 45px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 80px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 4%;
+                        margin-bottom: 5%;
+                        margin-left: -7%;
+                    }
+
+                    .social-icons li a img {
+                        width: 70px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .card ul li {
+                        color: #000000;
+                        font-size: 14px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 20%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
+                }
+                @media (max-width: 1441px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 5%;
+                        margin-bottom: 5%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 5%;
+                        font: 30px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 16px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 2% 5% 2%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        padding-bottom: 5%;
+                        border-radius: 1rem;
+                        width: 300px;
+                        height: 500px;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 18px;
+                    }
+                    .repos .card .cardTech ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-self: center;
+                        margin: 0% 0% 5% 0%;
+                        width: 100%;
+                    }
+                    .repos .card .cardTech li {
+                        font-size: 14px;
+                    }
+                    .repos .card .card-title {
+                        padding: 5%;
+                        height: 70px;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 20px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos .card-description {
+                        background-color: #ffffff;
+                        color: #000000;
+                        text-align: center;
+                        font: 14px bold;
+                        font-family: Helvetica;
+                        height: fit-content;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5%;
+                        text-align: left;
+                        font: 50px bold;
+                    }
+                    .repo-link {
+                        margin-top: 5%;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 40px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 25px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 50px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 5%;
+                        margin-bottom: 2%;
+                        margin-left: -7%;
+                    }
+                    .social-icons li a img {
+                        width: 40px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .card ul li {
+                        color: #000000;
+                        font-size: 14px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 20%;
+                        margin-left: 5%;
+                    }
+                    .captures-mobile img {
+                        width: 25%;
+                        height: 35%;
+                        margin-left: 5%;
+                        margin-bottom: 3%;
+                    }
+                    .captures-desktop img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 40px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 50%;
+                        height: 25%;
+                        margin-bottom: 6%;
+                        margin-left: 5%;
+                    }
+                }
+                @media (max-width: 1024px) {
+                    .text {
+                        text-align: center;
+                        margin-top: 8%;
+                        margin-bottom: 8%;
+                        margin-left: 10%;
+                        width: 80%;
+                    }
+                    .text h1 {
+                        margin-bottom: 7%;
+                        font: 40px bold;
+                        font-family: Helvetica;
+                    }
+                    .text p {
+                        color: #000000;
+                        font: 20px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos {
+                        background-color: #454545;
+                        text-align: center;
+                        margin: 5% 0% 0% 0%;
+                        padding: 10% 8% 5% 8%;
+                    }
+                    .repos .card {
+                        margin-bottom: 5%;
+                        margin-left: 5%;
+                        padding-bottom: 5%;
+                        border-radius: 1rem;
+                        width: 90%;
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.5);
+                    }
+                    .repos .card .cardTech p {
+                        margin-top: 5px;
+                        font-size: 30px;
+                    }
+                    .repos .card .cardTech ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-self: center;
+                        margin: 10% 5%;
+                    }
+                    .repos .card .cardTech li {
+                        font-size: 20px;
+                    }
+                    .repos .card .card-title {
+                        padding: 3%;
+                        background-color: #202020;
+                        border-top-left-radius: 1rem;
+                        border-top-right-radius: 1rem;
+                        color: white;
+                        font: 30px bold;
+                        font-family: Helvetica;
+                    }
+                    .repos .card-description {
+                        background-color: #ffffff;
+                        color: #000000;
+                        text-align: center;
+                        font: 24px bold;
+                        font-family: Helvetica;
+                        height: fit-content;
+                    }
+                    .repos p {
+                        background-color: #ffffff;
+                        color: #000000;
+                        margin: 8% 5%;
+                        text-align: left;
+                        font: 50px bold;
+                    }
+                    .repo-link {
+                        margin-top: 5%;
+                    }
+                    .repo-link a img {
+                        border: 1px solid #ffffff;
+                        width: 60px;
+                        margin-top: 2%;
+                        margin-bottom: 10%;
+                        border-radius: 50%;
+                    }
+                    .repo-link a img:hover {
+                        border: 5px solid #000000;
+                    }
+                    h3 {
+                        margin: 5% 0% 0% 0%;
+                        text-align: center;
+                    }
+                    .footer {
+                        justify-content: center;
+                    }
+                    .footer p {
+                        text-align: center;
+                        font-size: 30px;
+                        font-weight: 400;
+                        font-family: "Helvetica";
+                        color: #000000;
+                        margin-top: 50px;
+                    }
+                    .social-icons {
+                        text-align: center;
+                        margin-top: 5%;
+                        margin-bottom: 10%;
+                        margin-left: -7%;
+                    }
+
+                    .social-icons li a img {
+                        width: 60px;
+                    }
+                    .social-icons li {
+                        display: inline-flex;
+                        list-style-type: none;
+                        margin: 0% 2.5%;
+                    }
+                    .social-icons a img:hover {
+                        border-radius: 50%;
+                        border: 3px solid #000000;
+                    }
+                    .card p {
+                        font-family: Helvetica, Arial;
+                    }
+                    .card h4 {
+                        margin: 1% 0%;
+                    }
+                    .card ul {
+                        padding: 1%;
+                        width: 80%;
+                        margin-bottom: 50px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                    .card ul li {
+                        color: #000000;
+                        font-size: 14px;
+                        margin-top: 2%;
+                        margin-right: 2%;
+                        padding: 5px;
+                        font-family: "Consolas";
+                        background-color: rgba(178, 177, 177, 0.5);
+                        width: fit-content;
+                        border-radius: 0.5rem;
+                        display: inline-flex;
+                        justify-content: left;
+                    }
+                    .captures {
+                        width: 95%;
+                        display: inline-block;
+                        justify-content: center;
+                    }
+                    .captures-web img {
+                        box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1),
+                            0 6px 50px 0 rgba(0, 0, 0, 0.4);
+                        border-radius: 0.5rem;
+                        width: 90%;
+                        height: 70%;
+                        margin-bottom: 20%;
                         margin-left: 5%;
                     }
                     .captures-mobile img {
@@ -1148,7 +1139,7 @@ const Projects = () => {
                         border-radius: 0.5rem;
                         width: 90%;
                         height: 70%;
-                        margin-bottom: 10%;
+                        margin-bottom: 20%;
                         margin-left: 5%;
                     }
                     .captures-mobile img {
@@ -1171,4 +1162,4 @@ const Projects = () => {
         </main>
     );
 };
-export default Projects;
+export default Projects2;
