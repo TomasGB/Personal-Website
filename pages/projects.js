@@ -860,7 +860,6 @@ const Projects2 = () => {
                         justify-content: center;
                         align-self: center;
                         margin: 2% 0%;
-                        background-color: red;
                     }
                     .repos .card .cardTech li {
                         font-size: 20px;
