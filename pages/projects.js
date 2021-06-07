@@ -181,7 +181,7 @@ const Projects2 = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <div className="card-title">Portfolio Website</div>
+                        <div className="card-title">💼 Portfolio Website</div>
                         <div className="cardTech">
                             <p>Technologies used:</p>
                             <ul>
@@ -209,7 +209,7 @@ const Projects2 = () => {
                     </div>
                     <div className="card">
                         <div className="card-title">
-                            Polygon Surface Calculator
+                            🔷 Polygon Surface Calculator
                         </div>
 
                         <div className="cardTech">
@@ -297,6 +297,8 @@ const Projects2 = () => {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
+                        width: 100%;
+                        justify-content: center;
                     }
                     .repos .card {
                         margin-bottom: 5%;
@@ -477,6 +479,8 @@ const Projects2 = () => {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
+                        width: 100%;
+                        justify-content: center;
                     }
                     .repos .card {
                         margin-bottom: 5%;
@@ -657,6 +661,8 @@ const Projects2 = () => {
                         display: flex;
                         flex-direction: row;
                         flex-wrap: wrap;
+                        width: 100%;
+                        justify-content: center;
                     }
                     .repos .card {
                         margin-bottom: 5%;
@@ -840,11 +846,12 @@ const Projects2 = () => {
                         padding-bottom: 5%;
                         border-radius: 1rem;
                         width: 90%;
+                        height: fit-content;
                         box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.9),
                             0 6px 50px 0 rgba(0, 0, 0, 0.5);
                     }
                     .repos .card .cardTech p {
-                        margin-top: 5px;
+                        margin-top: 15px;
                         font-size: 30px;
                     }
                     .repos .card .cardTech ul {
@@ -852,7 +859,8 @@ const Projects2 = () => {
                         flex-wrap: wrap;
                         justify-content: center;
                         align-self: center;
-                        margin: 10% 5%;
+                        margin: 2% 0%;
+                        background-color: red;
                     }
                     .repos .card .cardTech li {
                         font-size: 20px;
@@ -873,11 +881,12 @@ const Projects2 = () => {
                         font: 24px bold;
                         font-family: Helvetica;
                         height: fit-content;
+                        background-color: blue;
                     }
                     .repos p {
                         background-color: #ffffff;
                         color: #000000;
-                        margin: 8% 5%;
+                        margin: 2% 5%;
                         text-align: left;
                         font: 50px bold;
                     }
@@ -1026,7 +1035,7 @@ const Projects2 = () => {
                         flex-wrap: wrap;
                         justify-content: center;
                         align-self: center;
-                        margin: 10% 5%;
+                        margin: 5% 0%;
                     }
                     .repos .card .cardTech li {
                         font-size: 12px;

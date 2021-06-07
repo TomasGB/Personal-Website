@@ -56,7 +56,7 @@ export default function ContactForm() {
                     margin: 5px 0px;
                     color: #000;
                     font-weight: 700;
-                    font-size: 24px;
+                    font-size: 16px;
                     display: block;
                 }
                 .contact-form input,
