@@ -685,9 +685,11 @@ const Projects2 = () => {
                         align-self: center;
                         margin: 0% 0% 5% 0%;
                         width: 100%;
+                        min-height: 80px;
                     }
                     .repos .card .cardTech li {
                         font-size: 14px;
+                        height: fit-content;
                     }
                     .repos .card .card-title {
                         padding: 5%;
@@ -698,19 +700,19 @@ const Projects2 = () => {
                         color: white;
                         font: 20px bold;
                         font-family: Helvetica;
+                        min-height: 80px;
                     }
                     .repos .card-description {
-                        background-color: #ffffff;
                         color: #000000;
                         text-align: center;
                         font: 14px bold;
                         font-family: Helvetica;
-                        height: fit-content;
+                        min-height: 150px;
                     }
                     .repos p {
                         background-color: #ffffff;
                         color: #000000;
-                        margin: 8% 5%;
+                        margin: 5%;
                         text-align: left;
                         font: 50px bold;
                     }
@@ -880,7 +882,6 @@ const Projects2 = () => {
                         font: 24px bold;
                         font-family: Helvetica;
                         height: fit-content;
-                        background-color: blue;
                     }
                     .repos p {
                         background-color: #ffffff;
